@@ -1,0 +1,9 @@
+﻿{
+  "name": "Repaso Final Francés A1",
+  "short_name": "Francés A1",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#243b53",
+  "description": "Recurso local de repaso final para Francés A1."
+}
