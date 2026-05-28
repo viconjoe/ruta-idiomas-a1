@@ -1,4 +1,4 @@
-﻿(function (global) {
+(function (global) {
   "use strict";
 
   var Engine = {};
@@ -29,7 +29,22 @@
     renderInforme();
   }
   function isDone(id) { return !!state.completed[id]; }
-  function titleCase(id) { return id.charAt(0).toUpperCase() + id.slice(1); }
+  function blockLabel(id) {
+    var labels = {
+      diagnostico: "Diagnóstico",
+      flashcards: "Flashcards",
+      gramatica: "Gramática",
+      lectura: "Lectura",
+      audicion: "Audición",
+      emparejar: "Emparejar",
+      situaciones: "Situaciones",
+      oral: "Oral",
+      reto: "Reto",
+      autoevaluacion: "Autoevaluación",
+      informe: "Informe"
+    };
+    return labels[id] || (id.charAt(0).toUpperCase() + id.slice(1));
+  }
 
   function section(id, title, intro) {
     var sec = el("section", "panel block-section");
@@ -210,7 +225,7 @@
   }
 
   function renderActivityList(parent, id, data) {
-    var sec = section(id, data.title || titleCase(id), data.intro || "Actividad de práctica.");
+    var sec = section(id, data.title || blockLabel(id), data.intro || "Actividad de práctica.");
     var list = el("div", "cards-grid");
     (data.items || []).forEach(function (item, index) { renderMultipleChoice(list, id, item, id + index); });
     sec.appendChild(list); parent.appendChild(sec);
@@ -317,7 +332,7 @@
     if (!target || !content) return;
     clear(target);
     var blocks = Object.keys(content.blocks || {});
-    blocks.forEach(function (id) { target.appendChild(el("p", null, titleCase(id) + ": " + (isDone(id) ? "realizado" : "pendiente"))); });
+    blocks.forEach(function (id) { target.appendChild(el("p", null, blockLabel(id) + ": " + (isDone(id) ? "realizado" : "pendiente"))); });
     if (state.text) target.appendChild(el("div", "text-box", "Producción escrita local:\n" + state.text));
   }
 
@@ -341,7 +356,7 @@
     var navInner = el("div", "container nav-inner");
     var links = el("div", "nav-links");
     Object.keys(content.blocks || {}).forEach(function (id) {
-      var a = el("a", null, titleCase(id));
+      var a = el("a", null, blockLabel(id));
       a.href = "#" + id;
       links.appendChild(a);
     });

@@ -1,17 +1,17 @@
 {
   "meta": {
     "id": "frances-a1",
-    "title": "Repaso Final Franc?s A1",
+    "title": "Repaso Final Francés A1",
     "lang": "fr",
     "level": "A1",
     "version": "1.0",
     "audience": "adultos FPE",
-    "author": "Joel Concepci?n Villanueva"
+    "author": "Joel Concepción Villanueva"
   },
   "blocks": {
     "diagnostico": {
-      "title": "Autoevaluaci?n r?pida",
-      "intro": "18 preguntas orientativas para detectar qu? conviene repasar antes de las actividades.",
+      "title": "Autoevaluación rápida",
+      "intro": "18 preguntas orientativas para detectar qué conviene repasar antes de las actividades.",
       "items": [
         {
           "pregunta": "¿Qué significa Bonjour?",
@@ -29,8 +29,8 @@
           "opciones": [
             "Je voudrais…",
             "Je m'appelle…",
-            "Où est… ?",
-            "Combien ça coûte ?"
+            "Où est…?",
+            "Combien ça coûte?"
           ],
           "respuestaCorrecta": 1,
           "feedback": "«Je m'appelle…» significa «Me llamo…»."
@@ -38,19 +38,19 @@
         {
           "pregunta": "¿Cómo preguntas el precio?",
           "opciones": [
-            "Où est la gare ?",
-            "Combien ça coûte ?",
+            "Où est la gare?",
+            "Combien ça coûte?",
             "J'habite à Gáldar",
             "Au revoir"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Combien ça coûte ?» significa «¿Cuánto cuesta?»."
+          "feedback": "«Combien ça coûte?» significa «¿Cuánto cuesta?»."
         },
         {
           "pregunta": "¿Qué frase sirve para pedir que repitan?",
           "opciones": [
             "Je ne comprends pas",
-            "Pouvez-vous répéter, s'il vous plaît ?",
+            "Pouvez-vous répéter, s'il vous plaît?",
             "Bonsoir",
             "Je travaille"
           ],
@@ -73,8 +73,8 @@
           "opciones": [
             "Je voudrais…",
             "Au revoir",
-            "Comment ça va ?",
-            "Où est… ?"
+            "Comment ça va?",
+            "Où est…?"
           ],
           "respuestaCorrecta": 0,
           "feedback": "«Je voudrais…» equivale a «Quisiera…»."
@@ -104,13 +104,13 @@
         {
           "pregunta": "¿Qué frase pregunta por ubicación?",
           "opciones": [
-            "Où est… ?",
+            "Où est…?",
             "Je voudrais…",
             "Bonsoir",
             "Ça coûte deux euros"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Où est… ?» significa «¿Dónde está…?»."
+          "feedback": "«Où est…?» significa «¿Dónde está…?»."
         },
         {
           "pregunta": "¿Qué frase significa Estoy jubilado/a?",
@@ -149,12 +149,12 @@
           "pregunta": "Elige una frase para pedir ayuda en la ciudad.",
           "opciones": [
             "Je vais bien.",
-            "Pouvez-vous m'aider ?",
+            "Pouvez-vous m'aider?",
             "Je suis espagnol.",
             "C'est mon cahier."
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Pouvez-vous m'aider ?» es una petición educada de ayuda."
+          "feedback": "«Pouvez-vous m'aider?» es una petición educada de ayuda."
         },
         {
           "pregunta": "¿Qué significa Je vais prendre le bus?",
@@ -192,16 +192,16 @@
         {
           "pregunta": "¿Qué frase sirve para confirmar una dirección?",
           "opciones": [
-            "C'est bien cette adresse ?",
+            "C'est bien cette adresse?",
             "Je voudrais une pomme.",
             "Je suis à la retraite.",
             "Il pleut beaucoup."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«C'est bien cette adresse ?» pregunta si esa dirección es correcta."
+          "feedback": "«C'est bien cette adresse?» pregunta si esa dirección es correcta."
         },
         {
-          "pregunta": "¿Qué significa Je suis disponible demain ?",
+          "pregunta": "¿Qué significa Je suis disponible demain?",
           "opciones": [
             "Estoy disponible mañana",
             "Estoy cerrado mañana",
@@ -215,7 +215,7 @@
     },
     "flashcards": {
       "title": "Flashcards de supervivencia",
-      "intro": "40 expresiones funcionales A1 para repasar reconocimiento y producci?n b?sica.",
+      "intro": "40 expresiones funcionales A1 para repasar reconocimiento y producción básica.",
       "items": [
         {
           "front": "Bonjour",
@@ -290,7 +290,7 @@
           "audio": "assets/audio/je-voudrais.mp3"
         },
         {
-          "front": "Combien ça coûte ?",
+          "front": "Combien ça coûte?",
           "back": "¿Cuánto cuesta?",
           "hint": "Compra básica",
           "audio": "assets/audio/combien-ca-coute.mp3"
@@ -302,7 +302,7 @@
           "audio": "assets/audio/addition-sil-vous-plait.mp3"
         },
         {
-          "front": "Où est la gare ?",
+          "front": "Où est la gare?",
           "back": "¿Dónde está la estación?",
           "hint": "Ciudad y transporte",
           "audio": "assets/audio/ou-est-la-gare.mp3"
@@ -392,19 +392,19 @@
           "audio": "assets/audio/je-ne-comprends-pas.mp3"
         },
         {
-          "front": "Pouvez-vous répéter, s'il vous plaît ?",
+          "front": "Pouvez-vous répéter, s'il vous plaît?",
           "back": "¿Puede repetir, por favor?",
           "hint": "Pedir repetición",
           "audio": "assets/audio/pouvez-vous-repeter.mp3"
         },
         {
-          "front": "Pouvez-vous parler plus lentement ?",
+          "front": "Pouvez-vous parler plus lentement?",
           "back": "¿Puede hablar más despacio?",
           "hint": "Aclaración",
           "audio": "assets/audio/parler-plus-lentement.mp3"
         },
         {
-          "front": "Pouvez-vous m'aider ?",
+          "front": "Pouvez-vous m'aider?",
           "back": "¿Puede ayudarme?",
           "hint": "Solicitar ayuda",
           "audio": "assets/audio/pouvez-vous-maider.mp3"
@@ -422,7 +422,7 @@
           "audio": "assets/audio/je-suis-disponible-demain.mp3"
         },
         {
-          "front": "C'est bien cette adresse ?",
+          "front": "C'est bien cette adresse?",
           "back": "¿Es correcta esta dirección?",
           "hint": "Confirmar información",
           "audio": "assets/audio/cest-bien-cette-adresse.mp3"
@@ -460,31 +460,31 @@
       ]
     },
     "gramatica": {
-      "title": "Gram?tica ?til A1",
-      "intro": "P?ldoras breves para construir frases sencillas antes de practicar.",
+      "title": "Gramática útil A1",
+      "intro": "Píldoras breves para construir frases sencillas antes de practicar.",
       "items": [
         {
           "title": "Presentarse",
-          "explanation": "Je suis... se usa con profesi?n o estado. Je m'appelle... sirve para decir el nombre.",
+          "explanation": "Je suis... se usa con profesión o estado. Je m'appelle... sirve para decir el nombre.",
           "examples": [
-            "Je suis ?tudiant(e).",
+            "Je suis étudiant(e).",
             "Je m'appelle Clara."
           ]
         },
         {
           "title": "Vivir y trabajar",
-          "explanation": "J'habite ?... introduce una ciudad. Je travaille dans... permite nombrar un sector.",
+          "explanation": "J'habite à... introduce una ciudad. Je travaille dans... permite nombrar un sector.",
           "examples": [
-            "J'habite ? Las Palmas.",
+            "J'habite à Las Palmas.",
             "Je travaille dans le commerce."
           ]
         },
         {
           "title": "Preguntar",
-          "explanation": "O? pregunta por lugar, quand por tiempo y combien por precio o cantidad.",
+          "explanation": "Où pregunta por lugar, quand por tiempo y combien por precio o cantidad.",
           "examples": [
-            "O? est la gare ?",
-            "Combien ?a co?te ?"
+            "Où est la gare?",
+            "Combien ça coûte?"
           ]
         },
         {
@@ -496,26 +496,26 @@
           ]
         },
         {
-          "title": "Cortes?a",
-          "explanation": "Je voudrais... y Pouvez-vous... ? ayudan a pedir algo con educaci?n.",
+          "title": "Cortesía",
+          "explanation": "Je voudrais... y Pouvez-vous...? ayudan a pedir algo con educación.",
           "examples": [
-            "Je voudrais un caf?.",
-            "Pouvez-vous r?p?ter ?"
+            "Je voudrais un café.",
+            "Pouvez-vous répéter?"
           ]
         },
         {
           "title": "Tiempo inmediato",
-          "explanation": "Je vais + infinitif expresa un plan pr?ximo.",
+          "explanation": "Je vais + infinitif expresa un plan próximo.",
           "examples": [
-            "Je vais ?tudier ce soir.",
+            "Je vais étudier ce soir.",
             "Je vais prendre le bus."
           ]
         }
       ]
     },
     "lectura": {
-      "title": "Comprensi?n lectora A1",
-      "intro": "Textos breves para localizar informaci?n concreta.",
+      "title": "Comprensión lectora A1",
+      "intro": "Textos breves para localizar información concreta.",
       "items": [
         {
           "title": "Mensaje de clase",
@@ -641,7 +641,7 @@
           "text": [
             "Bonjour,",
             "Je suis disponible demain matin.",
-            "Est-ce possible à 10 h ?"
+            "Est-ce possible à 10 h?"
           ],
           "pregunta": "¿Cuándo está disponible la persona?",
           "opciones": [
@@ -656,7 +656,7 @@
       ]
     },
     "audicion": {
-      "title": "Comprensi?n auditiva A1",
+      "title": "Comprensión auditiva A1",
       "intro": "Tareas preparadas para audios locales. No se graba voz del alumnado.",
       "items": [
         {
@@ -704,7 +704,7 @@
         {
           "title": "Transporte",
           "audio": "assets/audio/listen-04-bus-gare.mp3",
-          "transcription": "Excusez-moi, où est le bus pour la gare ?",
+          "transcription": "Excusez-moi, où est le bus pour la gare?",
           "pregunta": "¿Qué busca la persona?",
           "opciones": [
             "El bus para la estación",
@@ -718,7 +718,7 @@
         {
           "title": "Pedir repetición",
           "audio": "assets/audio/listen-05-repeter.mp3",
-          "transcription": "Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît ?",
+          "transcription": "Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît?",
           "pregunta": "¿Qué pide la persona?",
           "opciones": [
             "Pagar",
@@ -727,13 +727,13 @@
             "Cerrar la tienda"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La pista es «Pouvez-vous répéter ?»."
+          "feedback": "La pista es «Pouvez-vous répéter?»."
         }
       ]
     },
     "emparejar": {
       "title": "Emparejar expresiones",
-      "intro": "Relaci?n de expresiones francesas con su intenci?n comunicativa.",
+      "intro": "Relación de expresiones francesas con su intención comunicativa.",
       "items": [
         {
           "id": "name",
@@ -757,7 +757,7 @@
         },
         {
           "id": "price",
-          "front": "Combien ça coûte ?",
+          "front": "Combien ça coûte?",
           "back": "Preguntar precio"
         },
         {
@@ -767,7 +767,7 @@
         },
         {
           "id": "place",
-          "front": "Où est la gare ?",
+          "front": "Où est la gare?",
           "back": "Preguntar por un lugar"
         },
         {
@@ -777,12 +777,12 @@
         },
         {
           "id": "repeat",
-          "front": "Pouvez-vous répéter, s'il vous plaît ?",
+          "front": "Pouvez-vous répéter, s'il vous plaît?",
           "back": "Pedir que repitan"
         },
         {
           "id": "slow",
-          "front": "Pouvez-vous parler plus lentement ?",
+          "front": "Pouvez-vous parler plus lentement?",
           "back": "Pedir que hablen más despacio"
         },
         {
@@ -807,7 +807,7 @@
         },
         {
           "id": "confirm-address",
-          "front": "C'est bien cette adresse ?",
+          "front": "C'est bien cette adresse?",
           "back": "Confirmar una dirección"
         },
         {
@@ -819,13 +819,13 @@
     },
     "situaciones": {
       "title": "Mini-situaciones comunicativas",
-      "intro": "Elige la frase adecuada para cada situaci?n cotidiana.",
+      "intro": "Elige la frase adecuada para cada situación cotidiana.",
       "items": [
         {
           "situacion": "Llegas a clase y saludas al grupo por la mañana.",
           "opciones": [
             "Au revoir",
-            "Combien ça coûte ?",
+            "Combien ça coûte?",
             "Bonjour",
             "Je ne comprends pas"
           ],
@@ -836,7 +836,7 @@
           "situacion": "No has entendido la explicación y quieres pedir que repitan.",
           "opciones": [
             "J'habite à Gáldar",
-            "Pouvez-vous répéter, s'il vous plaît ?",
+            "Pouvez-vous répéter, s'il vous plaît?",
             "Je voudrais un café",
             "Ça coûte deux euros"
           ],
@@ -846,13 +846,13 @@
         {
           "situacion": "Estás comprando y quieres saber el precio.",
           "opciones": [
-            "Comment ça va ?",
-            "Où est la gare ?",
+            "Comment ça va?",
+            "Où est la gare?",
             "Je m'appelle Ana",
-            "Combien ça coûte ?"
+            "Combien ça coûte?"
           ],
           "respuestaCorrecta": 3,
-          "feedback": "«Combien ça coûte ?» es la pregunta básica para precio."
+          "feedback": "«Combien ça coûte?» es la pregunta básica para precio."
         },
         {
           "situacion": "Te preguntan tu nombre.",
@@ -869,19 +869,19 @@
           "situacion": "Quieres preguntar dónde está la estación.",
           "opciones": [
             "Je voudrais la gare",
-            "La gare coûte combien ?",
-            "Où est la gare ?",
+            "La gare coûte combien?",
+            "Où est la gare?",
             "Je suis gare"
           ],
           "respuestaCorrecta": 2,
-          "feedback": "«Où est… ?» pregunta por ubicación. «La gare» es la estación."
+          "feedback": "«Où est…?» pregunta por ubicación. «La gare» es la estación."
         },
         {
           "situacion": "Estás en un restaurante y quieres pedir la cuenta.",
           "opciones": [
             "L'addition, s'il vous plaît",
             "Je suis à la retraite",
-            "Où est mon cahier ?",
+            "Où est mon cahier?",
             "Il pleut"
           ],
           "respuestaCorrecta": 0,
@@ -912,8 +912,8 @@
         {
           "situacion": "La persona habla muy rápido y necesitas que vaya más despacio.",
           "opciones": [
-            "Pouvez-vous parler plus lentement ?",
-            "Combien ça coûte ?",
+            "Pouvez-vous parler plus lentement?",
+            "Combien ça coûte?",
             "Je suis espagnol",
             "C'est mon cahier"
           ],
@@ -926,7 +926,7 @@
             "Un kilo de pommes, s'il vous plaît",
             "Il est neuf heures",
             "Je m'appelle pommes",
-            "Où est le bus ?"
+            "Où est le bus?"
           ],
           "respuestaCorrecta": 0,
           "feedback": "La estructura cantidad + producto es útil en compras básicas."
@@ -945,7 +945,7 @@
         {
           "situacion": "Te dan una dirección y quieres confirmar que es correcta.",
           "opciones": [
-            "C'est bien cette adresse ?",
+            "C'est bien cette adresse?",
             "Je suis disponible demain",
             "Un billet, s'il vous plaît",
             "Je ne travaille pas"
@@ -969,7 +969,7 @@
           "opciones": [
             "Je suis disponible demain",
             "Je ne comprends pas",
-            "Où est la gare ?",
+            "Où est la gare?",
             "Il est fermé"
           ],
           "respuestaCorrecta": 0,
@@ -978,8 +978,8 @@
       ]
     },
     "oral": {
-      "title": "Pr?ctica oral guiada",
-      "intro": "Modelos y frases de apoyo para practicar en voz alta, sin grabaci?n.",
+      "title": "Práctica oral guiada",
+      "intro": "Modelos y frases de apoyo para practicar en voz alta, sin grabación.",
       "items": [
         {
           "title": "Presentarse en clase",
@@ -1003,7 +1003,7 @@
         {
           "title": "Pedir repetición",
           "task": "Imagina que no has entendido una instrucción. Pide que repitan con educación.",
-          "model": "Excusez-moi. Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît ?",
+          "model": "Excusez-moi. Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît?",
           "support": [
             {
               "phrase": "Excusez-moi.",
@@ -1014,7 +1014,7 @@
               "note": "Explica el problema."
             },
             {
-              "phrase": "Pouvez-vous répéter, s'il vous plaît ?",
+              "phrase": "Pouvez-vous répéter, s'il vous plaît?",
               "note": "Pide repetición."
             }
           ]
@@ -1041,14 +1041,14 @@
         {
           "title": "Estación",
           "task": "Pide un billete y pregunta el precio.",
-          "model": "Bonjour. Un billet, s'il vous plaît. Combien ça coûte ?",
+          "model": "Bonjour. Un billet, s'il vous plaît. Combien ça coûte?",
           "support": [
             {
               "phrase": "Un billet, s'il vous plaît.",
               "note": "Petición concreta."
             },
             {
-              "phrase": "Combien ça coûte ?",
+              "phrase": "Combien ça coûte?",
               "note": "Pregunta el precio."
             },
             {
@@ -1060,18 +1060,18 @@
         {
           "title": "Centro de formación",
           "task": "Pregunta dónde está una sala y confirma la dirección.",
-          "model": "Excusez-moi. Où est la salle 3 ? C'est bien cette adresse ?",
+          "model": "Excusez-moi. Où est la salle 3? C'est bien cette adresse?",
           "support": [
             {
               "phrase": "Excusez-moi.",
               "note": "Inicio educado."
             },
             {
-              "phrase": "Où est la salle 3 ?",
+              "phrase": "Où est la salle 3?",
               "note": "Pregunta por un lugar."
             },
             {
-              "phrase": "C'est bien cette adresse ?",
+              "phrase": "C'est bien cette adresse?",
               "note": "Confirma información."
             }
           ]
@@ -1079,8 +1079,8 @@
       ]
     },
     "reto": {
-      "title": "Situaci?n comunicativa",
-      "intro": "Producci?n libre local. El texto se guarda solo en este navegador.",
+      "title": "Situación comunicativa",
+      "intro": "Producción libre local. El texto se guarda solo en este navegador.",
       "prompts": [
         "Estás en una cafetería. Saluda, di tu nombre y pide un café de forma educada.",
         "Estás en clase. Preséntate, di dónde vives y pide que repitan una frase.",
@@ -1095,20 +1095,20 @@
         "Estás en una estación. Saluda, pide un billete y pregunta el precio.",
         "Necesitas cambiar una cita. Di que estás disponible mañana y pide que repitan la hora."
       ],
-      "placeholder": "Escribe 3 o 4 frases sencillas en franc?s. Evita datos personales reales.",
+      "placeholder": "Escribe 3 o 4 frases sencillas en francés. Evita datos personales reales.",
       "checklist": [
-        "Incluye saludo o f?rmula de cortes?a.",
+        "Incluye saludo o fórmula de cortesía.",
         "Usa al menos una frase funcional A1.",
-        "No escribas apellidos, DNI, tel?fono, correo ni direcci?n completa."
+        "No escribas apellidos, DNI, teléfono, correo ni dirección completa."
       ]
     },
     "autoevaluacion": {
-      "title": "Autoevaluaci?n final",
-      "intro": "S?ntesis sencilla del progreso local."
+      "title": "Autoevaluación final",
+      "intro": "Síntesis sencilla del progreso local."
     },
     "informe": {
       "title": "Informe local imprimible",
-      "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No env?a datos."
+      "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No envía datos."
     }
   }
 }
