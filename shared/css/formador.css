@@ -113,6 +113,29 @@ p { margin: 0 0 1rem; }
   gap: 1rem;
   padding: 1rem;
 }
+.resource-picker {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 520px;
+  margin-bottom: 1rem;
+}
+
+.field-label {
+  font-weight: 800;
+  color: var(--text);
+}
+
+.resource-picker select {
+  min-height: 46px;
+  width: 100%;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--text);
+}
+
+.selected-resource[hidden] { display: none; }
 
 .step-item {
   display: grid;
@@ -214,4 +237,5 @@ textarea { width: 100%; min-height: 150px; resize: vertical; padding: 0.85rem; b
   body { background: #fff; }
   .panel, .card { box-shadow: none; break-inside: avoid; }
 }
+
 

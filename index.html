@@ -27,15 +27,21 @@
         <h2>Recursos A1 disponibles</h2>
         <p class="muted">La biblioteca no abre ningún recurso automáticamente. Cada persona elige qué idioma o actividad quiere iniciar.</p>
       </div>
-      <div class="resource-list">
-        <article class="resource-card">
-          <div>
-            <h3>Repaso Final Francés A1</h3>
-            <p>Nivel A1 · Estado: disponible · Recurso local y privado</p>
-          </div>
-          <a class="button primary" href="./resources/frances-a1/">Abrir recurso</a>
-        </article>
+      <div class="resource-picker">
+        <label class="field-label" for="resourceSelect">Recurso</label>
+        <select id="resourceSelect" aria-describedby="resourceHelp">
+          <option value="">Selecciona un recurso A1</option>
+          <option value="frances-a1" data-title="Repaso Final Francés A1" data-level="Nivel A1" data-status="Disponible" data-url="./resources/frances-a1/">Repaso Final Francés A1</option>
+        </select>
+        <p id="resourceHelp" class="small muted">No se carga ningún recurso hasta que elijas uno.</p>
       </div>
+      <article class="resource-card selected-resource" id="selectedResource" hidden>
+        <div>
+          <h3 id="selectedResourceTitle"></h3>
+          <p id="selectedResourceMeta"></p>
+        </div>
+        <a class="button primary" id="selectedResourceLink" href="#">Abrir recurso</a>
+      </article>
     </section>
 
     <section class="panel">
@@ -90,12 +96,36 @@
     </div>
   </footer>
   <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("./sw.js").catch(function () {});
-      });
-    }
+    (function () {
+      var select = document.getElementById("resourceSelect");
+      var card = document.getElementById("selectedResource");
+      var title = document.getElementById("selectedResourceTitle");
+      var meta = document.getElementById("selectedResourceMeta");
+      var link = document.getElementById("selectedResourceLink");
+
+      if (select && card && title && meta && link) {
+        select.addEventListener("change", function () {
+          var option = select.options[select.selectedIndex];
+          if (!select.value) {
+            card.hidden = true;
+            link.removeAttribute("href");
+            return;
+          }
+          title.textContent = option.dataset.title;
+          meta.textContent = option.dataset.level + " · Estado: " + option.dataset.status + " · Recurso local y privado";
+          link.href = option.dataset.url;
+          card.hidden = false;
+        });
+      }
+
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("./sw.js").catch(function () {});
+        });
+      }
+    })();
   </script>
 </body>
 </html>
+
 
