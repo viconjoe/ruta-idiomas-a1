@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Ruta Idiomas A1",
+    "version": "1.0"
+  },
+  "resources": [
+    {
+      "id": "frances-a1",
+      "title": "Repaso Final Francés A1",
+      "level": "A1",
+      "status": "Disponible",
+      "privacy": "Recurso local y privado",
+      "url": "./resources/frances-a1/"
+    }
+  ]
+}

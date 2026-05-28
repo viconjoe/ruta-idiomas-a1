@@ -31,7 +31,6 @@
         <label class="field-label" for="resourceSelect">Recurso</label>
         <select id="resourceSelect" aria-describedby="resourceHelp">
           <option value="">Selecciona un recurso A1</option>
-          <option value="frances-a1" data-title="Repaso Final Francés A1" data-level="Nivel A1" data-status="Disponible" data-url="./resources/frances-a1/">Repaso Final Francés A1</option>
         </select>
         <p id="resourceHelp" class="small muted">No se carga ningún recurso hasta que elijas uno.</p>
       </div>
@@ -102,17 +101,48 @@
       var title = document.getElementById("selectedResourceTitle");
       var meta = document.getElementById("selectedResourceMeta");
       var link = document.getElementById("selectedResourceLink");
+      var help = document.getElementById("resourceHelp");
+
+      function hideResource() {
+        card.hidden = true;
+        link.removeAttribute("href");
+      }
+
+      function fillSelect(resources) {
+        resources.forEach(function (resource) {
+          var option = document.createElement("option");
+          option.value = resource.id;
+          option.dataset.title = resource.title;
+          option.dataset.level = resource.level;
+          option.dataset.status = resource.status;
+          option.dataset.privacy = resource.privacy;
+          option.dataset.url = resource.url;
+          option.textContent = resource.title;
+          select.appendChild(option);
+        });
+      }
 
       if (select && card && title && meta && link) {
+        fetch("./resources/catalog.json", { cache: "no-cache" })
+          .then(function (response) {
+            if (!response.ok) throw new Error("No se pudo cargar el cat?logo");
+            return response.json();
+          })
+          .then(function (catalog) {
+            fillSelect(catalog.resources || []);
+          })
+          .catch(function () {
+            if (help) help.textContent = "No se pudo cargar el cat?logo de recursos.";
+          });
+
         select.addEventListener("change", function () {
           var option = select.options[select.selectedIndex];
           if (!select.value) {
-            card.hidden = true;
-            link.removeAttribute("href");
+            hideResource();
             return;
           }
           title.textContent = option.dataset.title;
-          meta.textContent = option.dataset.level + " · Estado: " + option.dataset.status + " · Recurso local y privado";
+          meta.textContent = "Nivel " + option.dataset.level + " - Estado: " + option.dataset.status + " - " + option.dataset.privacy;
           link.href = option.dataset.url;
           card.hidden = false;
         });

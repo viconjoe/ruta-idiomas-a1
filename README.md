@@ -48,7 +48,7 @@ Ruta Idiomas A1/
 1. Copia la carpeta `template/` dentro de `resources/` con un nombre estable, por ejemplo `italiano-a1`.
 2. Cambia el `resourceId`, `contentPath`, `lang` y `title` en el `index.html` del recurso.
 3. Completa el `content.json` con metadatos y bloques pedagógicos.
-4. Añade el recurso a la lista de la página raíz `index.html`.
+4. Añade el recurso a `resources/catalog.json` para que aparezca en el selector de la portada.
 5. Mantén preguntas, textos, situaciones, feedback, audios y prompts dentro del JSON, no en HTML ni en JS.
 
 Consulta también `docs/guia-crear-recursos-a1.md` y `docs/guia-crear-recursos-a1.html` para una guía breve de adaptación.
@@ -71,6 +71,7 @@ Ruta Idiomas A1 es un proyecto personal y complementario de Joel Concepción Vil
 
 - Código: MIT.
 - Contenidos pedagógicos: CC BY-NC-SA 4.0.
+
 
 
 

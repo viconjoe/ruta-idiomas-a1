@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "ruta-idiomas-a1-v4";
+﻿const CACHE_NAME = "ruta-idiomas-a1-v5";
 const ESSENTIALS = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const ESSENTIALS = [
   "./engine/formador-engine.js",
   "./manifest.webmanifest",
   "./resources/frances-a1/",
+  "./resources/catalog.json",
   "./resources/frances-a1/index.html",
   "./resources/frances-a1/content.json",
   "./resources/frances-a1/manifest.webmanifest"
