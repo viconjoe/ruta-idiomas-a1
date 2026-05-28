@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "ruta-idiomas-a1-v2";
+﻿const CACHE_NAME = "ruta-idiomas-a1-v3";
 const ESSENTIALS = [
   "./",
   "./index.html",
@@ -50,3 +50,4 @@ self.addEventListener("fetch", function (event) {
     return cached || fetch(event.request);
   }));
 });
+
