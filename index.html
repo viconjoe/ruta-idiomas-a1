@@ -102,6 +102,16 @@
       var meta = document.getElementById("selectedResourceMeta");
       var link = document.getElementById("selectedResourceLink");
       var help = document.getElementById("resourceHelp");
+      var fallbackResources = [
+        {
+          id: "frances-a1",
+          title: "Repaso Final Franc?s A1",
+          level: "A1",
+          status: "Disponible",
+          privacy: "Recurso local y privado",
+          url: "./resources/frances-a1/"
+        }
+      ];
 
       function hideResource() {
         card.hidden = true;
@@ -125,14 +135,15 @@
       if (select && card && title && meta && link) {
         fetch("./resources/catalog.json", { cache: "no-cache" })
           .then(function (response) {
-            if (!response.ok) throw new Error("No se pudo cargar el cat?logo");
+            if (!response.ok) throw new Error("No se pudo cargar el catalogo");
             return response.json();
           })
           .then(function (catalog) {
             fillSelect(catalog.resources || []);
           })
           .catch(function () {
-            if (help) help.textContent = "No se pudo cargar el cat?logo de recursos.";
+            fillSelect(fallbackResources);
+            if (help) help.textContent = "Catalogo local de respaldo cargado. Para probar el catalogo JSON, abre la biblioteca desde un servidor local.";
           });
 
         select.addEventListener("change", function () {
