@@ -51,6 +51,8 @@ Ruta Idiomas A1/
 4. Añade el recurso a la lista de la página raíz `index.html`.
 5. Mantén preguntas, textos, situaciones, feedback, audios y prompts dentro del JSON, no en HTML ni en JS.
 
+Consulta también `docs/guia-crear-recursos-a1.md` y `docs/guia-crear-recursos-a1.html` para una guía breve de adaptación.
+
 ## Privacidad
 
 El proyecto está diseñado con privacidad por defecto. No utiliza servicios externos, no envía datos a servidores y no solicita datos personales. El progreso, checklist y producción escrita quedan únicamente en el navegador de la persona usuaria mediante `localStorage`.
@@ -69,3 +71,6 @@ Ruta Idiomas A1 es un proyecto personal y complementario de Joel Concepción Vil
 
 - Código: MIT.
 - Contenidos pedagógicos: CC BY-NC-SA 4.0.
+
+
+

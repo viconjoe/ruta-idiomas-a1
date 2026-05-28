@@ -105,7 +105,7 @@ p { margin: 0 0 1rem; }
 .muted-panel { background: var(--surface-soft); box-shadow: none; }
 .section-heading { margin-bottom: 1rem; }
 
-.resource-list, .block-grid, .cards-grid { display: grid; gap: 1rem; }
+.resource-list, .block-grid, .cards-grid, .step-list { display: grid; gap: 1rem; }
 .resource-card {
   display: flex;
   align-items: center;
@@ -114,6 +114,35 @@ p { margin: 0 0 1rem; }
   padding: 1rem;
 }
 
+.step-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.9rem;
+  align-items: start;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.step-number {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+}
+
+.step-item code {
+  padding: 0.08rem 0.28rem;
+  border-radius: 4px;
+  background: var(--surface-soft);
+}
+
+.guide-link { margin-top: 1rem; }
 .app-shell { min-height: 100vh; }
 .app-nav {
   position: sticky;
@@ -174,6 +203,7 @@ textarea { width: 100%; min-height: 150px; resize: vertical; padding: 0.85rem; b
 @media (max-width: 720px) {
   .container { width: min(100% - 1rem, 1120px); }
   .resource-card, .block-header, .nav-inner { flex-direction: column; align-items: stretch; }
+  .step-item { grid-template-columns: 1fr; }
   .nav-links { width: 100%; }
   button, .button { width: 100%; }
   .actions button, .actions .button { width: auto; flex: 1 1 150px; }
@@ -184,3 +214,4 @@ textarea { width: 100%; min-height: 150px; resize: vertical; padding: 0.85rem; b
   body { background: #fff; }
   .panel, .card { box-shadow: none; break-inside: avoid; }
 }
+

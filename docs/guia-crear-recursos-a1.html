@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guía para crear nuevos recursos A1 en Ruta Idiomas A1.">
+  <link rel="stylesheet" href="../shared/css/formador.css">
+  <title>Crear nuevos recursos A1 | Ruta Idiomas A1</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="eyebrow">Ruta Idiomas A1</p>
+      <h1>Crear nuevos recursos A1</h1>
+      <p class="lead">Guía breve para añadir otro idioma o recurso sin tocar el motor común.</p>
+    </div>
+  </header>
+  <main id="contenido" class="container section-stack">
+    <section class="panel">
+      <div class="section-heading">
+        <p class="eyebrow">Flujo recomendado</p>
+        <h2>De plantilla a recurso</h2>
+      </div>
+      <div class="step-list">
+        <article class="step-item">
+          <span class="step-number">1</span>
+          <div>
+            <h3>Copiar</h3>
+            <p>Duplica <code>template/</code> dentro de <code>resources/</code> y usa un identificador estable, por ejemplo <code>italiano-a1</code>.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">2</span>
+          <div>
+            <h3>Identificar</h3>
+            <p>Ajusta <code>resourceId</code>, <code>lang</code>, <code>title</code> y los metadatos del nuevo <code>content.json</code>.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">3</span>
+          <div>
+            <h3>Completar JSON</h3>
+            <p>Añade preguntas, flashcards, textos, audiciones, situaciones, oral, reto, autoevaluación e informe como datos.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">4</span>
+          <div>
+            <h3>Enlazar</h3>
+            <p>Añade una tarjeta en la portada raíz para que el alumnado elija el recurso.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="panel muted-panel">
+      <h2>Reglas del motor</h2>
+      <p>El contenido pedagógico vive en JSON. El HTML solo carga el recurso y el JavaScript solo renderiza bloques reutilizables.</p>
+      <p>La privacidad se mantiene igual en cada recurso: sin login, sin analítica, sin backend y sin envío de datos personales.</p>
+      <a class="button secondary" href="../">Volver a la biblioteca</a>
+    </section>
+  </main>
+</body>
+</html>

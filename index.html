@@ -23,19 +23,60 @@
   <main id="contenido" class="container section-stack">
     <section class="panel">
       <div class="section-heading">
-        <p class="eyebrow">Recursos disponibles</p>
-        <h2>Biblioteca inicial</h2>
+        <p class="eyebrow">Elige un recurso</p>
+        <h2>Recursos A1 disponibles</h2>
+        <p class="muted">La biblioteca no abre ningún recurso automáticamente. Cada persona elige qué idioma o actividad quiere iniciar.</p>
       </div>
       <div class="resource-list">
         <article class="resource-card">
           <div>
             <h3>Repaso Final Francés A1</h3>
-            <p>Nivel A1 · Estado: disponible</p>
+            <p>Nivel A1 · Estado: disponible · Recurso local y privado</p>
           </div>
           <a class="button primary" href="./resources/frances-a1/">Abrir recurso</a>
         </article>
       </div>
     </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <p class="eyebrow">Plantilla reutilizable</p>
+        <h2>Crear otro idioma A1</h2>
+        <p class="muted">El motor se mantiene común. Para añadir un nuevo recurso solo se duplica la plantilla, se cambia la configuración y se completa el contenido JSON.</p>
+      </div>
+      <div class="step-list">
+        <article class="step-item">
+          <span class="step-number">1</span>
+          <div>
+            <h3>Duplicar plantilla</h3>
+            <p>Copia <code>template/</code> dentro de <code>resources/</code> con un nombre estable, por ejemplo <code>italiano-a1</code>.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">2</span>
+          <div>
+            <h3>Ajustar identidad</h3>
+            <p>Cambia <code>resourceId</code>, <code>lang</code>, <code>title</code> y los metadatos del nuevo <code>content.json</code>.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">3</span>
+          <div>
+            <h3>Completar datos</h3>
+            <p>Añade preguntas, flashcards, textos, audiciones, situaciones, oral y reto dentro del JSON, sin poner contenido pedagógico en HTML o JS.</p>
+          </div>
+        </article>
+        <article class="step-item">
+          <span class="step-number">4</span>
+          <div>
+            <h3>Publicar enlace</h3>
+            <p>Añade una nueva tarjeta en esta portada para que el alumnado pueda elegir el recurso.</p>
+          </div>
+        </article>
+      </div>
+      <p class="small muted guide-link">Guía completa: <a href="./docs/guia-crear-recursos-a1.html">Crear nuevos recursos A1</a>.</p>
+    </section>
+
     <section class="panel muted-panel">
       <h2>Nota institucional</h2>
       <p>Proyecto personal, complementario y no oficial, sin vínculo institucional directo con ICSE ni SCE. No sustituye programaciones, materiales ni evaluaciones oficiales.</p>
@@ -57,3 +98,4 @@
   </script>
 </body>
 </html>
+
