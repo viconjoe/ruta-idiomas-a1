@@ -109,7 +109,7 @@
           level: "A1",
           status: "Disponible",
           privacy: "Recurso local y privado",
-          url: "./resources/frances-a1/"
+          url: "./resources/frances-a1/index.html"
         }
       ];
 
@@ -143,7 +143,7 @@
           })
           .catch(function () {
             fillSelect(fallbackResources);
-            if (help) help.textContent = "Cat\u00e1logo local de respaldo cargado. Para probar el cat\u00e1logo JSON, abre la biblioteca desde un servidor local.";
+            if (help) help.textContent = "Cat\u00e1logo local de respaldo cargado.";
           });
 
         select.addEventListener("change", function () {

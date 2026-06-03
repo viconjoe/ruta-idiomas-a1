@@ -10,11 +10,13 @@
 </head>
 <body>
   <main id="app" class="app-shell"></main>
+  <script src="./content-data.js"></script>
   <script src="../../engine/formador-engine.js"></script>
   <script>
     FormadorEngine.init({
       resourceId: "frances-a1",
       contentPath: "./content.json",
+      contentGlobal: "RutaIdiomasFrancesA1Content",
       lang: "fr",
       title: "Repaso Final Francés A1"
     });

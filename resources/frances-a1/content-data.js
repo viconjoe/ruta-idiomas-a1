@@ -1,4 +1,4 @@
-{
+window.RutaIdiomasFrancesA1Content = {
   "meta": {
     "id": "frances-a1",
     "title": "Repaso Final Francés A1",
@@ -1116,5 +1116,4 @@
       "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No envía datos."
     }
   }
-}
-
+};

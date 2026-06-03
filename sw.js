@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "ruta-idiomas-a1-v8";
+const CACHE_NAME = "ruta-idiomas-a1-v19";
 const ESSENTIALS = [
   "./",
   "./index.html",
@@ -8,6 +8,7 @@ const ESSENTIALS = [
   "./resources/frances-a1/",
   "./resources/catalog.json",
   "./resources/frances-a1/index.html",
+  "./resources/frances-a1/content-data.js",
   "./resources/frances-a1/content.json",
   "./resources/frances-a1/manifest.webmanifest"
 ];
@@ -51,6 +52,7 @@ self.addEventListener("fetch", function (event) {
     return cached || fetch(event.request);
   }));
 });
+
 
 
 
