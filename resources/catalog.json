@@ -11,6 +11,14 @@
       "status": "Disponible",
       "privacy": "Recurso local y privado",
       "url": "./resources/frances-a1/index.html"
+    },
+    {
+      "id": "ingles-a1",
+      "title": "Ruta Ingles A1",
+      "level": "A1",
+      "status": "En preparacion",
+      "privacy": "Recurso local y privado",
+      "url": "./resources/ingles-a1/index.html"
     }
   ]
 }
