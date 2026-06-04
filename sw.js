@@ -1,4 +1,4 @@
-const CACHE_NAME = "ruta-idiomas-a1-v19";
+const CACHE_NAME = "ruta-idiomas-a1-v20";
 const ESSENTIALS = [
   "./",
   "./index.html",
