@@ -201,6 +201,7 @@ body.resource-theme-english-union .kit-hero-main::before {
   inset: 0 0 auto;
   height: 0.46rem;
   background: linear-gradient(90deg, #012169 0 42%, #fffdf9 42% 58%, #c8102e 58% 100%);
+  z-index: 1;
 }
 
 body.resource-theme-french-vintage .kit-hero-main::after {
@@ -218,13 +219,26 @@ body.resource-theme-french-vintage .kit-hero-main::after {
 body.resource-theme-english-union .kit-hero-main::after {
   content: "";
   position: absolute;
-  right: clamp(1rem, 3vw, 2rem);
-  bottom: clamp(1rem, 3vw, 2rem);
-  width: min(190px, 32vw);
-  height: 0.34rem;
-  border-radius: 999px;
-  background: linear-gradient(90deg, #012169 0 40%, #fffdf9 40% 60%, #c8102e 60% 100%);
-  opacity: 0.9;
+  right: clamp(1.2rem, 4vw, 3rem);
+  bottom: clamp(1rem, 3vw, 1.8rem);
+  width: min(260px, 35vw);
+  height: min(210px, 78%);
+  opacity: 0.13;
+  pointer-events: none;
+  background:
+    linear-gradient(#012169, #012169) 58% 0 / 18% 100% no-repeat,
+    linear-gradient(#012169, #012169) 50% 9% / 34% 7% no-repeat,
+    linear-gradient(#012169, #012169) 48% 24% / 24% 5% no-repeat,
+    linear-gradient(#012169, #012169) 31% 40% / 7% 60% no-repeat,
+    linear-gradient(#012169, #012169) 18% 50% / 20% 5% no-repeat,
+    linear-gradient(#012169, #012169) 13% 66% / 8% 30% no-repeat,
+    linear-gradient(#012169, #012169) 0 95% / 100% 5% no-repeat;
+  clip-path: polygon(46% 0, 70% 0, 70% 13%, 66% 13%, 66% 100%, 8% 100%, 8% 74%, 18% 74%, 18% 53%, 36% 53%, 36% 44%, 46% 44%);
+}
+
+body.resource-theme-english-union .kit-hero-main > * {
+  position: relative;
+  z-index: 2;
 }
 
 .kit-card {
@@ -899,6 +913,9 @@ body.guided-mode .guided-active {
   body.resource-theme-french-vintage .kit-hero-main,
   body.resource-theme-english-union .kit-hero-main {
     padding: 0.75rem;
+  }
+  body.resource-theme-english-union .kit-hero-main::after {
+    display: none;
   }
   body.resource-theme-french-vintage .kit-hero-main h1,
   body.resource-theme-french-vintage .kit-hero-main .lead,
