@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "frances-a1",
-    "title": "Repaso Final Francés A1",
+    "title": "Ruta Frances A1",
     "lang": "fr",
     "level": "A1",
     "version": "1.0",
@@ -9,7 +9,7 @@
     "author": "Joel Concepción Villanueva",
     "ui": {
       "theme": "french-vintage",
-      "badge": "Francés A1 · Repaso final · Alumnado adulto",
+      "badge": "Frances A1 - Ruta - Alumnado adulto",
       "description": "Kit interactivo para repasar expresiones básicas, vocabulario funcional, gramática útil y situaciones comunicativas del nivel A1. Diseñado como recurso complementario, local y privado."
     }
   },

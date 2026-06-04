@@ -1,88 +1,88 @@
-window.RutaIdiomasFrancesA1Content = {
+﻿window.RutaIdiomasFrancesA1Content = {
   "meta": {
     "id": "frances-a1",
-    "title": "Repaso Final Francés A1",
+    "title": "Ruta Frances A1",
     "lang": "fr",
     "level": "A1",
     "version": "1.0",
     "audience": "adultos FPE",
-    "author": "Joel Concepción Villanueva",
+    "author": "Joel ConcepciÃ³n Villanueva",
     "ui": {
       "theme": "french-vintage",
-      "badge": "Francés A1 · Repaso final · Alumnado adulto",
-      "description": "Kit interactivo para repasar expresiones básicas, vocabulario funcional, gramática útil y situaciones comunicativas del nivel A1. Diseñado como recurso complementario, local y privado."
+      "badge": "Frances A1 - Ruta - Alumnado adulto",
+      "description": "Kit interactivo para repasar expresiones bÃ¡sicas, vocabulario funcional, gramÃ¡tica Ãºtil y situaciones comunicativas del nivel A1. DiseÃ±ado como recurso complementario, local y privado."
     }
   },
   "blocks": {
     "diagnostico": {
-      "title": "Autoevaluación rápida",
-      "intro": "18 preguntas orientativas para detectar qué conviene repasar antes de las actividades.",
+      "title": "AutoevaluaciÃ³n rÃ¡pida",
+      "intro": "18 preguntas orientativas para detectar quÃ© conviene repasar antes de las actividades.",
       "items": [
         {
-          "pregunta": "¿Qué significa Bonjour?",
+          "pregunta": "Â¿QuÃ© significa Bonjour?",
           "opciones": [
-            "Buenos días / Hola",
-            "Adiós",
+            "Buenos dÃ­as / Hola",
+            "AdiÃ³s",
             "Gracias",
             "Buenas noches"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Bonjour» es el saludo básico durante el día."
+          "feedback": "Â«BonjourÂ» es el saludo bÃ¡sico durante el dÃ­a."
         },
         {
           "pregunta": "Elige la frase para decir tu nombre.",
           "opciones": [
-            "Je voudrais…",
-            "Je m'appelle…",
-            "Où est…?",
-            "Combien ça coûte?"
+            "Je voudraisâ€¦",
+            "Je m'appelleâ€¦",
+            "OÃ¹ estâ€¦?",
+            "Combien Ã§a coÃ»te?"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Je m'appelle…» significa «Me llamo…»."
+          "feedback": "Â«Je m'appelleâ€¦Â» significa Â«Me llamoâ€¦Â»."
         },
         {
-          "pregunta": "¿Cómo preguntas el precio?",
+          "pregunta": "Â¿CÃ³mo preguntas el precio?",
           "opciones": [
-            "Où est la gare?",
-            "Combien ça coûte?",
-            "J'habite à Gáldar",
+            "OÃ¹ est la gare?",
+            "Combien Ã§a coÃ»te?",
+            "J'habite Ã  GÃ¡ldar",
             "Au revoir"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Combien ça coûte?» significa «¿Cuánto cuesta?»."
+          "feedback": "Â«Combien Ã§a coÃ»te?Â» significa Â«Â¿CuÃ¡nto cuesta?Â»."
         },
         {
-          "pregunta": "¿Qué frase sirve para pedir que repitan?",
+          "pregunta": "Â¿QuÃ© frase sirve para pedir que repitan?",
           "opciones": [
             "Je ne comprends pas",
-            "Pouvez-vous répéter, s'il vous plaît?",
+            "Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
             "Bonsoir",
             "Je travaille"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "Es una fórmula útil y educada para pedir repetición."
+          "feedback": "Es una fÃ³rmula Ãºtil y educada para pedir repeticiÃ³n."
         },
         {
-          "pregunta": "¿Qué significa J'habite à…?",
+          "pregunta": "Â¿QuÃ© significa J'habite Ã â€¦?",
           "opciones": [
-            "Me llamo…",
-            "Vivo en…",
-            "Quisiera…",
+            "Me llamoâ€¦",
+            "Vivo enâ€¦",
+            "Quisieraâ€¦",
             "No entiendo"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«J'habite à…» significa «Vivo en…»."
+          "feedback": "Â«J'habite Ã â€¦Â» significa Â«Vivo enâ€¦Â»."
         },
         {
-          "pregunta": "¿Qué frase usarías para pedir algo con cortesía?",
+          "pregunta": "Â¿QuÃ© frase usarÃ­as para pedir algo con cortesÃ­a?",
           "opciones": [
-            "Je voudrais…",
+            "Je voudraisâ€¦",
             "Au revoir",
-            "Comment ça va?",
-            "Où est…?"
+            "Comment Ã§a va?",
+            "OÃ¹ estâ€¦?"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Je voudrais…» equivale a «Quisiera…»."
+          "feedback": "Â«Je voudraisâ€¦Â» equivale a Â«Quisieraâ€¦Â»."
         },
         {
           "pregunta": "Elige una despedida.",
@@ -90,13 +90,13 @@ window.RutaIdiomasFrancesA1Content = {
             "Au revoir",
             "Bonjour",
             "Merci",
-            "Je suis étudiant(e)"
+            "Je suis Ã©tudiant(e)"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Au revoir» significa «adiós» o «hasta luego»."
+          "feedback": "Â«Au revoirÂ» significa Â«adiÃ³sÂ» o Â«hasta luegoÂ»."
         },
         {
-          "pregunta": "¿Qué significa Je ne comprends pas?",
+          "pregunta": "Â¿QuÃ© significa Je ne comprends pas?",
           "opciones": [
             "No entiendo",
             "No trabajo",
@@ -104,43 +104,43 @@ window.RutaIdiomasFrancesA1Content = {
             "No vivo"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Frase básica para expresar que no entiendes."
+          "feedback": "Frase bÃ¡sica para expresar que no entiendes."
         },
         {
-          "pregunta": "¿Qué frase pregunta por ubicación?",
+          "pregunta": "Â¿QuÃ© frase pregunta por ubicaciÃ³n?",
           "opciones": [
-            "Où est…?",
-            "Je voudrais…",
+            "OÃ¹ estâ€¦?",
+            "Je voudraisâ€¦",
             "Bonsoir",
-            "Ça coûte deux euros"
+            "Ã‡a coÃ»te deux euros"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Où est…?» significa «¿Dónde está…?»."
+          "feedback": "Â«OÃ¹ estâ€¦?Â» significa Â«Â¿DÃ³nde estÃ¡â€¦?Â»."
         },
         {
-          "pregunta": "¿Qué frase significa Estoy jubilado/a?",
+          "pregunta": "Â¿QuÃ© frase significa Estoy jubilado/a?",
           "opciones": [
-            "Je suis à la retraite.",
+            "Je suis Ã  la retraite.",
             "Je cherche du travail.",
             "Je travaille.",
-            "J'étudie le français."
+            "J'Ã©tudie le franÃ§ais."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Je suis à la retraite» significa «Estoy jubilado/a»."
+          "feedback": "Â«Je suis Ã  la retraiteÂ» significa Â«Estoy jubilado/aÂ»."
         },
         {
-          "pregunta": "¿Cómo dices 'Tengo una cita'?",
+          "pregunta": "Â¿CÃ³mo dices 'Tengo una cita'?",
           "opciones": [
             "J'ai rendez-vous.",
             "Je suis perdu.",
             "Il pleut.",
-            "C'est fermé."
+            "C'est fermÃ©."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«J'ai rendez-vous» sirve para decir que tienes una cita."
+          "feedback": "Â«J'ai rendez-vousÂ» sirve para decir que tienes una cita."
         },
         {
-          "pregunta": "¿Qué palabra corresponde a 'lunes'?",
+          "pregunta": "Â¿QuÃ© palabra corresponde a 'lunes'?",
           "opciones": [
             "Dimanche",
             "Lundi",
@@ -148,7 +148,7 @@ window.RutaIdiomasFrancesA1Content = {
             "Samedi"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Lundi» significa lunes."
+          "feedback": "Â«LundiÂ» significa lunes."
         },
         {
           "pregunta": "Elige una frase para pedir ayuda en la ciudad.",
@@ -159,10 +159,10 @@ window.RutaIdiomasFrancesA1Content = {
             "C'est mon cahier."
           ],
           "respuestaCorrecta": 1,
-          "feedback": "«Pouvez-vous m'aider?» es una petición educada de ayuda."
+          "feedback": "Â«Pouvez-vous m'aider?Â» es una peticiÃ³n educada de ayuda."
         },
         {
-          "pregunta": "¿Qué significa Je vais prendre le bus?",
+          "pregunta": "Â¿QuÃ© significa Je vais prendre le bus?",
           "opciones": [
             "Voy a coger el bus",
             "Trabajo en el bus",
@@ -170,73 +170,73 @@ window.RutaIdiomasFrancesA1Content = {
             "El bus cuesta caro"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Je vais + infinitivo» expresa un plan próximo."
+          "feedback": "Â«Je vais + infinitivoÂ» expresa un plan prÃ³ximo."
         },
         {
-          "pregunta": "¿Qué frase sirve en un restaurante?",
+          "pregunta": "Â¿QuÃ© frase sirve en un restaurante?",
           "opciones": [
-            "L'addition, s'il vous plaît.",
-            "Je suis à la retraite.",
+            "L'addition, s'il vous plaÃ®t.",
+            "Je suis Ã  la retraite.",
             "C'est mon ordinateur.",
             "Il est mardi."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«L'addition, s'il vous plaît» significa «La cuenta, por favor»."
+          "feedback": "Â«L'addition, s'il vous plaÃ®tÂ» significa Â«La cuenta, por favorÂ»."
         },
         {
-          "pregunta": "¿Cómo dices que tienes una entrevista?",
+          "pregunta": "Â¿CÃ³mo dices que tienes una entrevista?",
           "opciones": [
             "J'ai un entretien.",
-            "Je prends un café.",
-            "Il est fermé.",
+            "Je prends un cafÃ©.",
+            "Il est fermÃ©.",
             "Je suis perdu."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«J'ai un entretien» sirve para decir que tienes una entrevista."
+          "feedback": "Â«J'ai un entretienÂ» sirve para decir que tienes una entrevista."
         },
         {
-          "pregunta": "¿Qué frase sirve para confirmar una dirección?",
+          "pregunta": "Â¿QuÃ© frase sirve para confirmar una direcciÃ³n?",
           "opciones": [
             "C'est bien cette adresse?",
             "Je voudrais une pomme.",
-            "Je suis à la retraite.",
+            "Je suis Ã  la retraite.",
             "Il pleut beaucoup."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«C'est bien cette adresse?» pregunta si esa dirección es correcta."
+          "feedback": "Â«C'est bien cette adresse?Â» pregunta si esa direcciÃ³n es correcta."
         },
         {
-          "pregunta": "¿Qué significa Je suis disponible demain?",
+          "pregunta": "Â¿QuÃ© significa Je suis disponible demain?",
           "opciones": [
-            "Estoy disponible mañana",
-            "Estoy cerrado mañana",
-            "Vivo mañana",
-            "Compro mañana"
+            "Estoy disponible maÃ±ana",
+            "Estoy cerrado maÃ±ana",
+            "Vivo maÃ±ana",
+            "Compro maÃ±ana"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Es una frase útil para una cita, curso o entrevista."
+          "feedback": "Es una frase Ãºtil para una cita, curso o entrevista."
         }
       ]
     },
     "flashcards": {
       "title": "Flashcards de supervivencia",
-      "intro": "40 expresiones funcionales A1 para repasar reconocimiento y producción básica.",
+      "intro": "40 expresiones funcionales A1 para repasar reconocimiento y producciÃ³n bÃ¡sica.",
       "items": [
         {
           "front": "Bonjour",
-          "back": "Buenos días / Hola",
-          "hint": "Saludo básico durante el día",
+          "back": "Buenos dÃ­as / Hola",
+          "hint": "Saludo bÃ¡sico durante el dÃ­a",
           "audio": "assets/audio/bonjour.m4a"
         },
         {
           "front": "Bonsoir",
           "back": "Buenas noches / Buenas tardes (tarde-noche)",
-          "hint": "Saludo al final del día, desde el atardecer",
+          "hint": "Saludo al final del dÃ­a, desde el atardecer",
           "audio": "assets/audio/bonsoir.m4a"
         },
         {
           "front": "Au revoir",
-          "back": "Adiós / Hasta luego",
+          "back": "AdiÃ³s / Hasta luego",
           "hint": "Despedida",
           "audio": "assets/audio/au-revoir.m4a"
         },
@@ -248,32 +248,32 @@ window.RutaIdiomasFrancesA1Content = {
         },
         {
           "front": "Excusez-moi",
-          "back": "Disculpe / Perdón",
-          "hint": "Cortesía para llamar la atención",
+          "back": "Disculpe / PerdÃ³n",
+          "hint": "CortesÃ­a para llamar la atenciÃ³n",
           "audio": "assets/audio/excusez-moi.m4a"
         },
         {
-          "front": "Je m'appelle…",
-          "back": "Me llamo…",
-          "hint": "Presentación",
+          "front": "Je m'appelleâ€¦",
+          "back": "Me llamoâ€¦",
+          "hint": "PresentaciÃ³n",
           "audio": "assets/audio/je-mappelle.m4a"
         },
         {
-          "front": "J'habite à…",
-          "back": "Vivo en…",
+          "front": "J'habite Ã â€¦",
+          "back": "Vivo enâ€¦",
           "hint": "Lugar de residencia",
           "audio": "assets/audio/jhabite-a.m4a"
         },
         {
           "front": "Je suis espagnol(e)",
-          "back": "Soy español/a",
+          "back": "Soy espaÃ±ol/a",
           "hint": "Nacionalidad",
           "audio": "assets/audio/je-suis-espagnol.m4a"
         },
         {
-          "front": "Je suis étudiant(e)",
+          "front": "Je suis Ã©tudiant(e)",
           "back": "Soy estudiante",
-          "hint": "Situación personal",
+          "hint": "SituaciÃ³n personal",
           "audio": "assets/audio/je-suis-etudiant.m4a"
         },
         {
@@ -289,37 +289,37 @@ window.RutaIdiomasFrancesA1Content = {
           "audio": "assets/audio/je-cherche-du-travail.m4a"
         },
         {
-          "front": "Je voudrais…",
-          "back": "Quisiera…",
-          "hint": "Petición educada",
+          "front": "Je voudraisâ€¦",
+          "back": "Quisieraâ€¦",
+          "hint": "PeticiÃ³n educada",
           "audio": "assets/audio/je-voudrais.m4a"
         },
         {
-          "front": "Combien ça coûte?",
-          "back": "¿Cuánto cuesta?",
-          "hint": "Compra básica",
+          "front": "Combien Ã§a coÃ»te?",
+          "back": "Â¿CuÃ¡nto cuesta?",
+          "hint": "Compra bÃ¡sica",
           "audio": "assets/audio/combien-ca-coute.m4a"
         },
         {
-          "front": "L'addition, s'il vous plaît",
+          "front": "L'addition, s'il vous plaÃ®t",
           "back": "La cuenta, por favor",
           "hint": "Restaurante",
           "audio": "assets/audio/addition-sil-vous-plait.m4a"
         },
         {
-          "front": "Où est la gare?",
-          "back": "¿Dónde está la estación?",
+          "front": "OÃ¹ est la gare?",
+          "back": "Â¿DÃ³nde estÃ¡ la estaciÃ³n?",
           "hint": "Ciudad y transporte",
           "audio": "assets/audio/ou-est-la-gare.m4a"
         },
         {
-          "front": "À gauche",
+          "front": "Ã€ gauche",
           "back": "A la izquierda",
           "hint": "Direcciones",
           "audio": "assets/audio/a-gauche.m4a"
         },
         {
-          "front": "À droite",
+          "front": "Ã€ droite",
           "back": "A la derecha",
           "hint": "Direcciones",
           "audio": "assets/audio/a-droite.m4a"
@@ -327,13 +327,13 @@ window.RutaIdiomasFrancesA1Content = {
         {
           "front": "Je vais prendre le bus",
           "back": "Voy a coger el bus",
-          "hint": "Transporte y futuro próximo",
+          "hint": "Transporte y futuro prÃ³ximo",
           "audio": "assets/audio/je-vais-prendre-le-bus.m4a"
         },
         {
           "front": "J'ai rendez-vous",
           "back": "Tengo una cita",
-          "hint": "Cita o gestión",
+          "hint": "Cita o gestiÃ³n",
           "audio": "assets/audio/jai-rendez-vous.m4a"
         },
         {
@@ -350,26 +350,26 @@ window.RutaIdiomasFrancesA1Content = {
         },
         {
           "front": "Demain",
-          "back": "Mañana",
+          "back": "MaÃ±ana",
           "hint": "Tiempo",
           "audio": "assets/audio/demain.m4a"
         },
         {
           "front": "Lundi",
           "back": "Lunes",
-          "hint": "Día de la semana",
+          "hint": "DÃ­a de la semana",
           "audio": "assets/audio/lundi.m4a"
         },
         {
           "front": "Il pleut",
           "back": "Llueve",
-          "hint": "Meteorología",
+          "hint": "MeteorologÃ­a",
           "audio": "assets/audio/il-pleut.m4a"
         },
         {
           "front": "Il fait chaud",
           "back": "Hace calor",
-          "hint": "Meteorología / sensación",
+          "hint": "MeteorologÃ­a / sensaciÃ³n",
           "audio": "assets/audio/il-fait-chaud.m4a"
         },
         {
@@ -380,8 +380,8 @@ window.RutaIdiomasFrancesA1Content = {
         },
         {
           "front": "Votre adresse",
-          "back": "Su dirección",
-          "hint": "Dato personal básico",
+          "back": "Su direcciÃ³n",
+          "hint": "Dato personal bÃ¡sico",
           "audio": "assets/audio/votre-adresse.m4a"
         },
         {
@@ -397,99 +397,99 @@ window.RutaIdiomasFrancesA1Content = {
           "audio": "assets/audio/je-ne-comprends-pas.m4a"
         },
         {
-          "front": "Pouvez-vous répéter, s'il vous plaît?",
-          "back": "¿Puede repetir, por favor?",
-          "hint": "Pedir repetición",
+          "front": "Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
+          "back": "Â¿Puede repetir, por favor?",
+          "hint": "Pedir repeticiÃ³n",
           "audio": "assets/audio/pouvez-vous-repeter.m4a"
         },
         {
           "front": "Pouvez-vous parler plus lentement?",
-          "back": "¿Puede hablar más despacio?",
-          "hint": "Aclaración",
+          "back": "Â¿Puede hablar mÃ¡s despacio?",
+          "hint": "AclaraciÃ³n",
           "audio": "assets/audio/parler-plus-lentement.m4a"
         },
         {
           "front": "Pouvez-vous m'aider?",
-          "back": "¿Puede ayudarme?",
+          "back": "Â¿Puede ayudarme?",
           "hint": "Solicitar ayuda",
           "audio": "assets/audio/pouvez-vous-maider.m4a"
         },
         {
           "front": "J'ai un entretien",
           "back": "Tengo una entrevista",
-          "hint": "Trabajo y gestión",
+          "hint": "Trabajo y gestiÃ³n",
           "audio": "assets/audio/jai-un-entretien.m4a"
         },
         {
           "front": "Je suis disponible demain",
-          "back": "Estoy disponible mañana",
+          "back": "Estoy disponible maÃ±ana",
           "hint": "Cita y disponibilidad",
           "audio": "assets/audio/je-suis-disponible-demain.m4a"
         },
         {
           "front": "C'est bien cette adresse?",
-          "back": "¿Es correcta esta dirección?",
-          "hint": "Confirmar información",
+          "back": "Â¿Es correcta esta direcciÃ³n?",
+          "hint": "Confirmar informaciÃ³n",
           "audio": "assets/audio/cest-bien-cette-adresse.m4a"
         },
         {
-          "front": "Je voudrais un café",
-          "back": "Quisiera un café",
-          "hint": "Petición concreta",
+          "front": "Je voudrais un cafÃ©",
+          "back": "Quisiera un cafÃ©",
+          "hint": "PeticiÃ³n concreta",
           "audio": "assets/audio/je-voudrais-un-cafe.m4a"
         },
         {
-          "front": "Un billet, s'il vous plaît",
+          "front": "Un billet, s'il vous plaÃ®t",
           "back": "Un billete, por favor",
           "hint": "Transporte",
           "audio": "assets/audio/un-billet-sil-vous-plait.m4a"
         },
         {
-          "front": "Je vais à la pharmacie",
+          "front": "Je vais Ã  la pharmacie",
           "back": "Voy a la farmacia",
           "hint": "Ciudad y necesidad cotidiana",
           "audio": "assets/audio/je-vais-a-la-pharmacie.m4a"
         },
         {
-          "front": "La salle est à gauche",
-          "back": "La sala está a la izquierda",
-          "hint": "Centro de formación",
+          "front": "La salle est Ã  gauche",
+          "back": "La sala estÃ¡ a la izquierda",
+          "hint": "Centro de formaciÃ³n",
           "audio": "assets/audio/la-salle-est-a-gauche.m4a"
         },
         {
           "front": "Je dois partir",
           "back": "Tengo que irme",
-          "hint": "Situación cotidiana",
+          "hint": "SituaciÃ³n cotidiana",
           "audio": "assets/audio/je-dois-partir.m4a"
         }
       ]
     },
     "gramatica": {
-      "title": "Gramática útil A1",
-      "intro": "Píldoras breves para construir frases sencillas antes de practicar.",
+      "title": "GramÃ¡tica Ãºtil A1",
+      "intro": "PÃ­ldoras breves para construir frases sencillas antes de practicar.",
       "items": [
         {
           "title": "Presentarse",
-          "explanation": "Je suis... se usa con profesión o estado. Je m'appelle... sirve para decir el nombre.",
+          "explanation": "Je suis... se usa con profesiÃ³n o estado. Je m'appelle... sirve para decir el nombre.",
           "examples": [
-            "Je suis étudiant(e).",
+            "Je suis Ã©tudiant(e).",
             "Je m'appelle Clara."
           ]
         },
         {
           "title": "Vivir y trabajar",
-          "explanation": "J'habite à... introduce una ciudad. Je travaille dans... permite nombrar un sector.",
+          "explanation": "J'habite Ã ... introduce una ciudad. Je travaille dans... permite nombrar un sector.",
           "examples": [
-            "J'habite à Las Palmas.",
+            "J'habite Ã  Las Palmas.",
             "Je travaille dans le commerce."
           ]
         },
         {
           "title": "Preguntar",
-          "explanation": "Où pregunta por lugar, quand por tiempo y combien por precio o cantidad.",
+          "explanation": "OÃ¹ pregunta por lugar, quand por tiempo y combien por precio o cantidad.",
           "examples": [
-            "Où est la gare?",
-            "Combien ça coûte?"
+            "OÃ¹ est la gare?",
+            "Combien Ã§a coÃ»te?"
           ]
         },
         {
@@ -501,35 +501,35 @@ window.RutaIdiomasFrancesA1Content = {
           ]
         },
         {
-          "title": "Cortesía",
-          "explanation": "Je voudrais... y Pouvez-vous...? ayudan a pedir algo con educación.",
+          "title": "CortesÃ­a",
+          "explanation": "Je voudrais... y Pouvez-vous...? ayudan a pedir algo con educaciÃ³n.",
           "examples": [
-            "Je voudrais un café.",
-            "Pouvez-vous répéter?"
+            "Je voudrais un cafÃ©.",
+            "Pouvez-vous rÃ©pÃ©ter?"
           ]
         },
         {
           "title": "Tiempo inmediato",
-          "explanation": "Je vais + infinitif expresa un plan próximo.",
+          "explanation": "Je vais + infinitif expresa un plan prÃ³ximo.",
           "examples": [
-            "Je vais étudier ce soir.",
+            "Je vais Ã©tudier ce soir.",
             "Je vais prendre le bus."
           ]
         }
       ]
     },
     "lectura": {
-      "title": "Comprensión lectora A1",
-      "intro": "Textos breves para localizar información concreta.",
+      "title": "ComprensiÃ³n lectora A1",
+      "intro": "Textos breves para localizar informaciÃ³n concreta.",
       "items": [
         {
           "title": "Mensaje de clase",
           "text": [
             "Bonjour Marta,",
-            "Le cours de français commence à 9 h. Apporte ton cahier et un stylo.",
-            "À demain !"
+            "Le cours de franÃ§ais commence Ã  9 h. Apporte ton cahier et un stylo.",
+            "Ã€ demain !"
           ],
-          "pregunta": "¿A qué hora empieza el curso?",
+          "pregunta": "Â¿A quÃ© hora empieza el curso?",
           "opciones": [
             "A las 8 h",
             "A las 9 h",
@@ -537,33 +537,33 @@ window.RutaIdiomasFrancesA1Content = {
             "Por la tarde"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "El texto dice «commence à 9 h»."
+          "feedback": "El texto dice Â«commence Ã  9 hÂ»."
         },
         {
           "title": "Aviso en una tienda",
           "text": [
             "La boulangerie est ouverte du lundi au samedi.",
             "Horaires : 8 h - 14 h.",
-            "Fermé le dimanche."
+            "FermÃ© le dimanche."
           ],
-          "pregunta": "¿Qué día está cerrada la panadería?",
+          "pregunta": "Â¿QuÃ© dÃ­a estÃ¡ cerrada la panaderÃ­a?",
           "opciones": [
             "Lunes",
-            "Sábado",
+            "SÃ¡bado",
             "Domingo",
             "Viernes"
           ],
           "respuestaCorrecta": 2,
-          "feedback": "El aviso dice «Fermé le dimanche»."
+          "feedback": "El aviso dice Â«FermÃ© le dimancheÂ»."
         },
         {
           "title": "Correo breve",
           "text": [
             "Bonjour,",
-            "J'ai rendez-vous mardi à 10 h avec Madame Dupont.",
+            "J'ai rendez-vous mardi Ã  10 h avec Madame Dupont.",
             "Merci beaucoup."
           ],
-          "pregunta": "¿Cuándo es la cita?",
+          "pregunta": "Â¿CuÃ¡ndo es la cita?",
           "opciones": [
             "Lunes a las 10 h",
             "Martes a las 10 h",
@@ -571,7 +571,7 @@ window.RutaIdiomasFrancesA1Content = {
             "Domingo"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "El correo dice «mardi à 10 h»."
+          "feedback": "El correo dice Â«mardi Ã  10 hÂ»."
         },
         {
           "title": "Nota de restaurante",
@@ -580,7 +580,7 @@ window.RutaIdiomasFrancesA1Content = {
             "Prix : 12 euros.",
             "Eau incluse."
           ],
-          "pregunta": "¿Cuánto cuesta el menú?",
+          "pregunta": "Â¿CuÃ¡nto cuesta el menÃº?",
           "opciones": [
             "10 euros",
             "12 euros",
@@ -588,16 +588,16 @@ window.RutaIdiomasFrancesA1Content = {
             "20 euros"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La nota indica «Prix : 12 euros»."
+          "feedback": "La nota indica Â«Prix : 12 eurosÂ»."
         },
         {
           "title": "Mensaje de transporte",
           "text": [
-            "Le bus pour la gare part à 16 h 30.",
-            "Arrêt : Place Centrale.",
+            "Le bus pour la gare part Ã  16 h 30.",
+            "ArrÃªt : Place Centrale.",
             "Billet : 1,50 euro."
           ],
-          "pregunta": "¿A qué hora sale el bus?",
+          "pregunta": "Â¿A quÃ© hora sale el bus?",
           "opciones": [
             "14 h 30",
             "16 h 30",
@@ -605,84 +605,84 @@ window.RutaIdiomasFrancesA1Content = {
             "A las 15 h"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "El mensaje dice «part à 16 h 30»."
+          "feedback": "El mensaje dice Â«part Ã  16 h 30Â»."
         },
         {
           "title": "Nota de entrevista",
           "text": [
             "Bonjour Sofia,",
-            "Votre entretien est jeudi à 11 h.",
-            "Apportez votre CV et une pièce d'identité."
+            "Votre entretien est jeudi Ã  11 h.",
+            "Apportez votre CV et une piÃ¨ce d'identitÃ©."
           ],
-          "pregunta": "¿Qué debe llevar Sofia?",
+          "pregunta": "Â¿QuÃ© debe llevar Sofia?",
           "opciones": [
-            "Un café",
+            "Un cafÃ©",
             "Su CV y un documento de identidad",
             "Un billete de bus",
-            "Un menú"
+            "Un menÃº"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La nota dice «Apportez votre CV et une pièce d'identité»."
+          "feedback": "La nota dice Â«Apportez votre CV et une piÃ¨ce d'identitÃ©Â»."
         },
         {
-          "title": "Mensaje de centro de formación",
+          "title": "Mensaje de centro de formaciÃ³n",
           "text": [
-            "Le bureau est au premier étage.",
-            "La salle 3 est à droite.",
-            "L'accueil est ouvert de 9 h à 13 h."
+            "Le bureau est au premier Ã©tage.",
+            "La salle 3 est Ã  droite.",
+            "L'accueil est ouvert de 9 h Ã  13 h."
           ],
-          "pregunta": "¿Dónde está la sala 3?",
+          "pregunta": "Â¿DÃ³nde estÃ¡ la sala 3?",
           "opciones": [
             "A la izquierda",
             "A la derecha",
-            "En la estación",
+            "En la estaciÃ³n",
             "En la tienda"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La pista es «La salle 3 est à droite»."
+          "feedback": "La pista es Â«La salle 3 est Ã  droiteÂ»."
         },
         {
           "title": "Aviso de cita",
           "text": [
             "Bonjour,",
             "Je suis disponible demain matin.",
-            "Est-ce possible à 10 h?"
+            "Est-ce possible Ã  10 h?"
           ],
-          "pregunta": "¿Cuándo está disponible la persona?",
+          "pregunta": "Â¿CuÃ¡ndo estÃ¡ disponible la persona?",
           "opciones": [
             "Esta tarde",
-            "Mañana por la mañana",
+            "MaÃ±ana por la maÃ±ana",
             "El domingo",
             "A las 14 h"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "El texto dice «demain matin»."
+          "feedback": "El texto dice Â«demain matinÂ»."
         }
       ]
     },
     "audicion": {
-      "title": "Comprensión auditiva A1",
+      "title": "ComprensiÃ³n auditiva A1",
       "intro": "Tareas preparadas para audios locales. No se graba voz del alumnado.",
       "items": [
         {
           "title": "Saludo en clase",
           "audio": "assets/audio/listen-01-saludo-clase.mp3",
-          "transcription": "Bonjour. Je m'appelle Claire. J'habite à Las Palmas.",
-          "pregunta": "¿Dónde vive Claire?",
+          "transcription": "Bonjour. Je m'appelle Claire. J'habite Ã  Las Palmas.",
+          "pregunta": "Â¿DÃ³nde vive Claire?",
           "opciones": [
-            "En París",
+            "En ParÃ­s",
             "En Las Palmas",
-            "En la estación",
+            "En la estaciÃ³n",
             "En una tienda"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La pista es «J'habite à Las Palmas»."
+          "feedback": "La pista es Â«J'habite Ã  Las PalmasÂ»."
         },
         {
           "title": "Hora del curso",
           "audio": "assets/audio/listen-02-heure-cours.mp3",
-          "transcription": "Le cours commence à neuf heures. Apportez votre cahier.",
-          "pregunta": "¿A qué hora empieza el curso?",
+          "transcription": "Le cours commence Ã  neuf heures. Apportez votre cahier.",
+          "pregunta": "Â¿A quÃ© hora empieza el curso?",
           "opciones": [
             "A las 8 h",
             "A las 9 h",
@@ -690,41 +690,41 @@ window.RutaIdiomasFrancesA1Content = {
             "Por la tarde"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La pista es «commence à neuf heures»."
+          "feedback": "La pista es Â«commence Ã  neuf heuresÂ»."
         },
         {
-          "title": "Compra básica",
+          "title": "Compra bÃ¡sica",
           "audio": "assets/audio/listen-03-achat-pommes.mp3",
-          "transcription": "Bonjour. Je voudrais un kilo de pommes, s'il vous plaît.",
-          "pregunta": "¿Qué quiere comprar la persona?",
+          "transcription": "Bonjour. Je voudrais un kilo de pommes, s'il vous plaÃ®t.",
+          "pregunta": "Â¿QuÃ© quiere comprar la persona?",
           "opciones": [
-            "Un café",
+            "Un cafÃ©",
             "Un billete",
             "Un kilo de manzanas",
             "Un cuaderno"
           ],
           "respuestaCorrecta": 2,
-          "feedback": "La pista es «un kilo de pommes»."
+          "feedback": "La pista es Â«un kilo de pommesÂ»."
         },
         {
           "title": "Transporte",
           "audio": "assets/audio/listen-04-bus-gare.mp3",
-          "transcription": "Excusez-moi, où est le bus pour la gare?",
-          "pregunta": "¿Qué busca la persona?",
+          "transcription": "Excusez-moi, oÃ¹ est le bus pour la gare?",
+          "pregunta": "Â¿QuÃ© busca la persona?",
           "opciones": [
-            "El bus para la estación",
+            "El bus para la estaciÃ³n",
             "La cuenta",
-            "Una dirección de correo",
+            "Una direcciÃ³n de correo",
             "Una farmacia"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "La pista es «le bus pour la gare»."
+          "feedback": "La pista es Â«le bus pour la gareÂ»."
         },
         {
-          "title": "Pedir repetición",
+          "title": "Pedir repeticiÃ³n",
           "audio": "assets/audio/listen-05-repeter.mp3",
-          "transcription": "Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît?",
-          "pregunta": "¿Qué pide la persona?",
+          "transcription": "Je ne comprends pas. Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
+          "pregunta": "Â¿QuÃ© pide la persona?",
           "opciones": [
             "Pagar",
             "Repetir",
@@ -732,23 +732,23 @@ window.RutaIdiomasFrancesA1Content = {
             "Cerrar la tienda"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "La pista es «Pouvez-vous répéter?»."
+          "feedback": "La pista es Â«Pouvez-vous rÃ©pÃ©ter?Â»."
         }
       ]
     },
     "emparejar": {
       "title": "Emparejar expresiones",
-      "intro": "Relación de expresiones francesas con su intención comunicativa.",
+      "intro": "RelaciÃ³n de expresiones francesas con su intenciÃ³n comunicativa.",
       "items": [
         {
           "id": "name",
-          "front": "Je m'appelle…",
+          "front": "Je m'appelleâ€¦",
           "back": "Decir mi nombre"
         },
         {
           "id": "live",
-          "front": "J'habite à…",
-          "back": "Decir dónde vivo"
+          "front": "J'habite Ã â€¦",
+          "back": "Decir dÃ³nde vivo"
         },
         {
           "id": "nationality",
@@ -762,17 +762,17 @@ window.RutaIdiomasFrancesA1Content = {
         },
         {
           "id": "price",
-          "front": "Combien ça coûte?",
+          "front": "Combien Ã§a coÃ»te?",
           "back": "Preguntar precio"
         },
         {
           "id": "restaurant",
-          "front": "L'addition, s'il vous plaît",
+          "front": "L'addition, s'il vous plaÃ®t",
           "back": "Pedir la cuenta"
         },
         {
           "id": "place",
-          "front": "Où est la gare?",
+          "front": "OÃ¹ est la gare?",
           "back": "Preguntar por un lugar"
         },
         {
@@ -782,23 +782,23 @@ window.RutaIdiomasFrancesA1Content = {
         },
         {
           "id": "repeat",
-          "front": "Pouvez-vous répéter, s'il vous plaît?",
+          "front": "Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
           "back": "Pedir que repitan"
         },
         {
           "id": "slow",
           "front": "Pouvez-vous parler plus lentement?",
-          "back": "Pedir que hablen más despacio"
+          "back": "Pedir que hablen mÃ¡s despacio"
         },
         {
           "id": "help",
           "front": "Excusez-moi",
-          "back": "Llamar la atención con educación"
+          "back": "Llamar la atenciÃ³n con educaciÃ³n"
         },
         {
           "id": "want",
-          "front": "Je voudrais…",
-          "back": "Pedir algo de forma cortés"
+          "front": "Je voudraisâ€¦",
+          "back": "Pedir algo de forma cortÃ©s"
         },
         {
           "id": "interview",
@@ -813,87 +813,87 @@ window.RutaIdiomasFrancesA1Content = {
         {
           "id": "confirm-address",
           "front": "C'est bien cette adresse?",
-          "back": "Confirmar una dirección"
+          "back": "Confirmar una direcciÃ³n"
         },
         {
           "id": "ticket",
-          "front": "Un billet, s'il vous plaît",
+          "front": "Un billet, s'il vous plaÃ®t",
           "back": "Pedir un billete"
         }
       ]
     },
     "situaciones": {
       "title": "Mini-situaciones comunicativas",
-      "intro": "Elige la frase adecuada para cada situación cotidiana.",
+      "intro": "Elige la frase adecuada para cada situaciÃ³n cotidiana.",
       "items": [
         {
-          "situacion": "Llegas a clase y saludas al grupo por la mañana.",
+          "situacion": "Llegas a clase y saludas al grupo por la maÃ±ana.",
           "opciones": [
             "Au revoir",
-            "Combien ça coûte?",
+            "Combien Ã§a coÃ»te?",
             "Bonjour",
             "Je ne comprends pas"
           ],
           "respuestaCorrecta": 2,
-          "feedback": "«Bonjour» es el saludo básico durante el día."
+          "feedback": "Â«BonjourÂ» es el saludo bÃ¡sico durante el dÃ­a."
         },
         {
-          "situacion": "No has entendido la explicación y quieres pedir que repitan.",
+          "situacion": "No has entendido la explicaciÃ³n y quieres pedir que repitan.",
           "opciones": [
-            "J'habite à Gáldar",
-            "Pouvez-vous répéter, s'il vous plaît?",
-            "Je voudrais un café",
-            "Ça coûte deux euros"
+            "J'habite Ã  GÃ¡ldar",
+            "Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
+            "Je voudrais un cafÃ©",
+            "Ã‡a coÃ»te deux euros"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "Pedir repetición con cortesía ayuda mucho en A1."
+          "feedback": "Pedir repeticiÃ³n con cortesÃ­a ayuda mucho en A1."
         },
         {
-          "situacion": "Estás comprando y quieres saber el precio.",
+          "situacion": "EstÃ¡s comprando y quieres saber el precio.",
           "opciones": [
-            "Comment ça va?",
-            "Où est la gare?",
+            "Comment Ã§a va?",
+            "OÃ¹ est la gare?",
             "Je m'appelle Ana",
-            "Combien ça coûte?"
+            "Combien Ã§a coÃ»te?"
           ],
           "respuestaCorrecta": 3,
-          "feedback": "«Combien ça coûte?» es la pregunta básica para precio."
+          "feedback": "Â«Combien Ã§a coÃ»te?Â» es la pregunta bÃ¡sica para precio."
         },
         {
           "situacion": "Te preguntan tu nombre.",
           "opciones": [
             "Je m'appelle Carlos",
-            "J'habite à Paris",
+            "J'habite Ã  Paris",
             "Je ne comprends pas",
             "Bonsoir"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Je m'appelle…» sirve para decir el nombre."
+          "feedback": "Â«Je m'appelleâ€¦Â» sirve para decir el nombre."
         },
         {
-          "situacion": "Quieres preguntar dónde está la estación.",
+          "situacion": "Quieres preguntar dÃ³nde estÃ¡ la estaciÃ³n.",
           "opciones": [
             "Je voudrais la gare",
-            "La gare coûte combien?",
-            "Où est la gare?",
+            "La gare coÃ»te combien?",
+            "OÃ¹ est la gare?",
             "Je suis gare"
           ],
           "respuestaCorrecta": 2,
-          "feedback": "«Où est…?» pregunta por ubicación. «La gare» es la estación."
+          "feedback": "Â«OÃ¹ estâ€¦?Â» pregunta por ubicaciÃ³n. Â«La gareÂ» es la estaciÃ³n."
         },
         {
-          "situacion": "Estás en un restaurante y quieres pedir la cuenta.",
+          "situacion": "EstÃ¡s en un restaurante y quieres pedir la cuenta.",
           "opciones": [
-            "L'addition, s'il vous plaît",
-            "Je suis à la retraite",
-            "Où est mon cahier?",
+            "L'addition, s'il vous plaÃ®t",
+            "Je suis Ã  la retraite",
+            "OÃ¹ est mon cahier?",
             "Il pleut"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«L'addition, s'il vous plaît» es una fórmula útil en restaurante."
+          "feedback": "Â«L'addition, s'il vous plaÃ®tÂ» es una fÃ³rmula Ãºtil en restaurante."
         },
         {
-          "situacion": "Tienes una cita en recepción y quieres decirlo.",
+          "situacion": "Tienes una cita en recepciÃ³n y quieres decirlo.",
           "opciones": [
             "J'ai rendez-vous",
             "Je vais prendre le bus",
@@ -901,10 +901,10 @@ window.RutaIdiomasFrancesA1Content = {
             "Je ne travaille pas"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«J'ai rendez-vous» significa que tienes una cita."
+          "feedback": "Â«J'ai rendez-vousÂ» significa que tienes una cita."
         },
         {
-          "situacion": "Quieres decir que vas a coger el autobús.",
+          "situacion": "Quieres decir que vas a coger el autobÃºs.",
           "opciones": [
             "Je vais prendre le bus",
             "Je prends la pomme",
@@ -912,84 +912,84 @@ window.RutaIdiomasFrancesA1Content = {
             "Je suis bus"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Je vais + infinitivo» expresa un plan próximo."
+          "feedback": "Â«Je vais + infinitivoÂ» expresa un plan prÃ³ximo."
         },
         {
-          "situacion": "La persona habla muy rápido y necesitas que vaya más despacio.",
+          "situacion": "La persona habla muy rÃ¡pido y necesitas que vaya mÃ¡s despacio.",
           "opciones": [
             "Pouvez-vous parler plus lentement?",
-            "Combien ça coûte?",
+            "Combien Ã§a coÃ»te?",
             "Je suis espagnol",
             "C'est mon cahier"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Es una frase clave para interacción oral A1."
+          "feedback": "Es una frase clave para interacciÃ³n oral A1."
         },
         {
           "situacion": "En una tienda quieres pedir un kilo de manzanas.",
           "opciones": [
-            "Un kilo de pommes, s'il vous plaît",
+            "Un kilo de pommes, s'il vous plaÃ®t",
             "Il est neuf heures",
             "Je m'appelle pommes",
-            "Où est le bus?"
+            "OÃ¹ est le bus?"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "La estructura cantidad + producto es útil en compras básicas."
+          "feedback": "La estructura cantidad + producto es Ãºtil en compras bÃ¡sicas."
         },
         {
-          "situacion": "Llegas a una entrevista y quieres explicar por qué estás allí.",
+          "situacion": "Llegas a una entrevista y quieres explicar por quÃ© estÃ¡s allÃ­.",
           "opciones": [
             "J'ai un entretien",
             "Je voudrais une pomme",
             "Il pleut",
-            "Je vais à la plage"
+            "Je vais Ã  la plage"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«J'ai un entretien» amplía la función de cita hacia contexto laboral."
+          "feedback": "Â«J'ai un entretienÂ» amplÃ­a la funciÃ³n de cita hacia contexto laboral."
         },
         {
-          "situacion": "Te dan una dirección y quieres confirmar que es correcta.",
+          "situacion": "Te dan una direcciÃ³n y quieres confirmar que es correcta.",
           "opciones": [
             "C'est bien cette adresse?",
             "Je suis disponible demain",
-            "Un billet, s'il vous plaît",
+            "Un billet, s'il vous plaÃ®t",
             "Je ne travaille pas"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Confirmar información es una estrategia útil para evitar errores."
+          "feedback": "Confirmar informaciÃ³n es una estrategia Ãºtil para evitar errores."
         },
         {
-          "situacion": "En una estación quieres pedir un billete.",
+          "situacion": "En una estaciÃ³n quieres pedir un billete.",
           "opciones": [
-            "Un billet, s'il vous plaît",
-            "L'addition, s'il vous plaît",
-            "Je suis à la retraite",
+            "Un billet, s'il vous plaÃ®t",
+            "L'addition, s'il vous plaÃ®t",
+            "Je suis Ã  la retraite",
             "C'est mon cahier"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "«Un billet, s'il vous plaît» reutiliza la fórmula de cortesía en transporte."
+          "feedback": "Â«Un billet, s'il vous plaÃ®tÂ» reutiliza la fÃ³rmula de cortesÃ­a en transporte."
         },
         {
-          "situacion": "Te proponen una cita para mañana y puedes asistir.",
+          "situacion": "Te proponen una cita para maÃ±ana y puedes asistir.",
           "opciones": [
             "Je suis disponible demain",
             "Je ne comprends pas",
-            "Où est la gare?",
-            "Il est fermé"
+            "OÃ¹ est la gare?",
+            "Il est fermÃ©"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "La disponibilidad se expresa con «Je suis disponible...»."
+          "feedback": "La disponibilidad se expresa con Â«Je suis disponible...Â»."
         }
       ]
     },
     "oral": {
-      "title": "Práctica oral guiada",
-      "intro": "Modelos y frases de apoyo para practicar en voz alta, sin grabación.",
+      "title": "PrÃ¡ctica oral guiada",
+      "intro": "Modelos y frases de apoyo para practicar en voz alta, sin grabaciÃ³n.",
       "items": [
         {
           "title": "Presentarse en clase",
-          "task": "Saluda, di tu nombre de pila o ficticio y explica que estudias francés.",
-          "model": "Bonjour. Je m'appelle Clara. J'étudie le français.",
+          "task": "Saluda, di tu nombre de pila o ficticio y explica que estudias francÃ©s.",
+          "model": "Bonjour. Je m'appelle Clara. J'Ã©tudie le franÃ§ais.",
           "support": [
             {
               "phrase": "Bonjour.",
@@ -1000,34 +1000,34 @@ window.RutaIdiomasFrancesA1Content = {
               "note": "Usa solo un nombre de pila o ficticio."
             },
             {
-              "phrase": "J'étudie le français.",
+              "phrase": "J'Ã©tudie le franÃ§ais.",
               "note": "Di una frase sencilla sobre ti."
             }
           ]
         },
         {
-          "title": "Pedir repetición",
-          "task": "Imagina que no has entendido una instrucción. Pide que repitan con educación.",
-          "model": "Excusez-moi. Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît?",
+          "title": "Pedir repeticiÃ³n",
+          "task": "Imagina que no has entendido una instrucciÃ³n. Pide que repitan con educaciÃ³n.",
+          "model": "Excusez-moi. Je ne comprends pas. Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
           "support": [
             {
               "phrase": "Excusez-moi.",
-              "note": "Llama la atención de forma educada."
+              "note": "Llama la atenciÃ³n de forma educada."
             },
             {
               "phrase": "Je ne comprends pas.",
               "note": "Explica el problema."
             },
             {
-              "phrase": "Pouvez-vous répéter, s'il vous plaît?",
-              "note": "Pide repetición."
+              "phrase": "Pouvez-vous rÃ©pÃ©ter, s'il vous plaÃ®t?",
+              "note": "Pide repeticiÃ³n."
             }
           ]
         },
         {
           "title": "Entrevista o cita",
-          "task": "Llegas a recepción. Saluda, di tu nombre de pila o ficticio y explica que tienes una entrevista.",
-          "model": "Bonjour. Je m'appelle Marc. J'ai un entretien à dix heures.",
+          "task": "Llegas a recepciÃ³n. Saluda, di tu nombre de pila o ficticio y explica que tienes una entrevista.",
+          "model": "Bonjour. Je m'appelle Marc. J'ai un entretien Ã  dix heures.",
           "support": [
             {
               "phrase": "Bonjour.",
@@ -1039,81 +1039,83 @@ window.RutaIdiomasFrancesA1Content = {
             },
             {
               "phrase": "J'ai un entretien.",
-              "note": "Explica la situación."
+              "note": "Explica la situaciÃ³n."
             }
           ]
         },
         {
-          "title": "Estación",
+          "title": "EstaciÃ³n",
           "task": "Pide un billete y pregunta el precio.",
-          "model": "Bonjour. Un billet, s'il vous plaît. Combien ça coûte?",
+          "model": "Bonjour. Un billet, s'il vous plaÃ®t. Combien Ã§a coÃ»te?",
           "support": [
             {
-              "phrase": "Un billet, s'il vous plaît.",
-              "note": "Petición concreta."
+              "phrase": "Un billet, s'il vous plaÃ®t.",
+              "note": "PeticiÃ³n concreta."
             },
             {
-              "phrase": "Combien ça coûte?",
+              "phrase": "Combien Ã§a coÃ»te?",
               "note": "Pregunta el precio."
             },
             {
               "phrase": "Merci.",
-              "note": "Cierra con cortesía."
+              "note": "Cierra con cortesÃ­a."
             }
           ]
         },
         {
-          "title": "Centro de formación",
-          "task": "Pregunta dónde está una sala y confirma la dirección.",
-          "model": "Excusez-moi. Où est la salle 3? C'est bien cette adresse?",
+          "title": "Centro de formaciÃ³n",
+          "task": "Pregunta dÃ³nde estÃ¡ una sala y confirma la direcciÃ³n.",
+          "model": "Excusez-moi. OÃ¹ est la salle 3? C'est bien cette adresse?",
           "support": [
             {
               "phrase": "Excusez-moi.",
               "note": "Inicio educado."
             },
             {
-              "phrase": "Où est la salle 3?",
+              "phrase": "OÃ¹ est la salle 3?",
               "note": "Pregunta por un lugar."
             },
             {
               "phrase": "C'est bien cette adresse?",
-              "note": "Confirma información."
+              "note": "Confirma informaciÃ³n."
             }
           ]
         }
       ]
     },
     "reto": {
-      "title": "Situación comunicativa",
-      "intro": "Producción libre local. El texto se guarda solo en este navegador.",
+      "title": "SituaciÃ³n comunicativa",
+      "intro": "ProducciÃ³n libre local. El texto se guarda solo en este navegador.",
       "prompts": [
-        "Estás en una cafetería. Saluda, di tu nombre y pide un café de forma educada.",
-        "Estás en clase. Preséntate, di dónde vives y pide que repitan una frase.",
-        "Estás en una tienda. Saluda, pregunta el precio y pide un kilo de fruta.",
-        "Estás en la calle. Pregunta dónde está la estación y pide ayuda con cortesía.",
-        "Conoces a una persona nueva. Saluda, di tu nombre, dónde vives y cómo estás.",
+        "EstÃ¡s en una cafeterÃ­a. Saluda, di tu nombre y pide un cafÃ© de forma educada.",
+        "EstÃ¡s en clase. PresÃ©ntate, di dÃ³nde vives y pide que repitan una frase.",
+        "EstÃ¡s en una tienda. Saluda, pregunta el precio y pide un kilo de fruta.",
+        "EstÃ¡s en la calle. Pregunta dÃ³nde estÃ¡ la estaciÃ³n y pide ayuda con cortesÃ­a.",
+        "Conoces a una persona nueva. Saluda, di tu nombre, dÃ³nde vives y cÃ³mo estÃ¡s.",
         "Tienes una cita. Saluda, di tu nombre y explica que tienes una cita.",
-        "Vas a usar transporte. Di a dónde vas y que vas a coger el autobús.",
-        "Buscas empleo. Preséntate y di en una frase sencilla que buscas trabajo.",
+        "Vas a usar transporte. Di a dÃ³nde vas y que vas a coger el autobÃºs.",
+        "Buscas empleo. PresÃ©ntate y di en una frase sencilla que buscas trabajo.",
         "Llegas a una entrevista. Saluda, di tu nombre y explica que tienes una entrevista.",
-        "Estás en un centro de formación. Pregunta por una sala y confirma la dirección.",
-        "Estás en una estación. Saluda, pide un billete y pregunta el precio.",
-        "Necesitas cambiar una cita. Di que estás disponible mañana y pide que repitan la hora."
+        "EstÃ¡s en un centro de formaciÃ³n. Pregunta por una sala y confirma la direcciÃ³n.",
+        "EstÃ¡s en una estaciÃ³n. Saluda, pide un billete y pregunta el precio.",
+        "Necesitas cambiar una cita. Di que estÃ¡s disponible maÃ±ana y pide que repitan la hora."
       ],
-      "placeholder": "Escribe 3 o 4 frases sencillas en francés. Evita datos personales reales.",
+      "placeholder": "Escribe 3 o 4 frases sencillas en francÃ©s. Evita datos personales reales.",
       "checklist": [
-        "Incluye saludo o fórmula de cortesía.",
+        "Incluye saludo o fÃ³rmula de cortesÃ­a.",
         "Usa al menos una frase funcional A1.",
-        "No escribas apellidos, DNI, teléfono, correo ni dirección completa."
+        "No escribas apellidos, DNI, telÃ©fono, correo ni direcciÃ³n completa."
       ]
     },
     "autoevaluacion": {
-      "title": "Autoevaluación final",
-      "intro": "Síntesis sencilla del progreso local."
+      "title": "AutoevaluaciÃ³n final",
+      "intro": "SÃ­ntesis sencilla del progreso local."
     },
     "informe": {
       "title": "Informe local imprimible",
-      "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No envía datos."
+      "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No envÃ­a datos."
     }
   }
-};
+}
+
+;
