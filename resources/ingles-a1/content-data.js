@@ -11,7 +11,7 @@
     "author": "El Formador Junior",
     "alignment": "SSCE01 Ingles A1. Servicio Canario de Empleo / SEPE. Nivel A1 MCERL: comprension oral y escrita, expresion e interaccion oral y escrita en situaciones familiares y necesidades inmediatas.",
     "ui": {
-      "theme": "french-vintage",
+      "theme": "english-union",
       "badge": "Ingles A1 - SSCE01 - Alumnado adulto",
       "description": "Kit interactivo para repasar ingles A1: identificacion personal, vida diaria, trabajo, viajes, compras, servicios, cortesÃ­a, control de la comunicacion y mensajes breves."
     }

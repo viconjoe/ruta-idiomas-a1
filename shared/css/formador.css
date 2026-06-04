@@ -51,6 +51,27 @@ body.resource-theme-french-vintage {
     linear-gradient(180deg, #fbf8f1, var(--bg));
 }
 
+body.resource-theme-english-union {
+  --bg: #f4f6fb;
+  --surface: #fffdf9;
+  --surface-soft: #e8edf7;
+  --text: #1f2933;
+  --muted: #5f6b76;
+  --border: #d7dce8;
+  --primary: #123b73;
+  --primary-dark: #0a2346;
+  --accent: #b31942;
+  --warning: #7c4a03;
+  --success-bg: #e7f2ee;
+  --error-bg: #f8e4e8;
+  --focus: #c8a64a;
+  --shadow: 0 12px 30px rgba(18, 59, 115, 0.1);
+  background:
+    linear-gradient(135deg, rgba(1, 33, 105, 0.12), transparent 24rem),
+    linear-gradient(45deg, transparent 0 44%, rgba(179, 25, 66, 0.1) 44% 47%, rgba(255, 255, 255, 0.5) 47% 53%, rgba(1, 33, 105, 0.09) 53% 56%, transparent 56%),
+    linear-gradient(180deg, #fbfcff, var(--bg));
+}
+
 a { color: var(--primary); }
 
 a:hover { color: var(--primary-dark); }
@@ -124,6 +145,11 @@ body.resource-theme-french-vintage .kit-header {
   border-bottom: 0;
 }
 
+body.resource-theme-english-union .kit-header {
+  background: transparent;
+  border-bottom: 0;
+}
+
 .kit-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.55fr);
@@ -152,12 +178,29 @@ body.resource-theme-french-vintage .kit-hero-main {
     linear-gradient(135deg, var(--surface), #fdf8ee);
 }
 
+body.resource-theme-english-union .kit-hero-main {
+  position: relative;
+  overflow: hidden;
+  border-color: var(--border);
+  background:
+    linear-gradient(90deg, rgba(1, 33, 105, 0.12) 0 0.55rem, transparent 0.55rem),
+    linear-gradient(135deg, #fffdf9, #f7f9ff);
+}
+
 body.resource-theme-french-vintage .kit-hero-main::before {
   content: "";
   position: absolute;
   inset: 0 0 auto;
   height: 0.42rem;
   background: linear-gradient(90deg, #173f73 0 33.33%, #fffdf9 33.33% 66.66%, #b23a48 66.66% 100%);
+}
+
+body.resource-theme-english-union .kit-hero-main::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.46rem;
+  background: linear-gradient(90deg, #012169 0 42%, #fffdf9 42% 58%, #c8102e 58% 100%);
 }
 
 body.resource-theme-french-vintage .kit-hero-main::after {
@@ -172,6 +215,18 @@ body.resource-theme-french-vintage .kit-hero-main::after {
   opacity: 0.85;
 }
 
+body.resource-theme-english-union .kit-hero-main::after {
+  content: "";
+  position: absolute;
+  right: clamp(1rem, 3vw, 2rem);
+  bottom: clamp(1rem, 3vw, 2rem);
+  width: min(190px, 32vw);
+  height: 0.34rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #012169 0 40%, #fffdf9 40% 60%, #c8102e 60% 100%);
+  opacity: 0.9;
+}
+
 .kit-card {
   padding: 1rem;
   display: grid;
@@ -183,9 +238,15 @@ body.resource-theme-french-vintage .kit-card {
   background: linear-gradient(180deg, rgba(255, 253, 249, 0.96), rgba(253, 248, 238, 0.96));
 }
 
+body.resource-theme-english-union .kit-card {
+  border-color: var(--border);
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.98), rgba(247, 249, 255, 0.98));
+}
+
 h1, h2, h3 { line-height: 1.15; margin: 0 0 0.6rem; }
 h1 { font-size: clamp(2rem, 7vw, 4.2rem); }
 body.resource-theme-french-vintage h1 { font-size: clamp(2.2rem, 4.4vw, 3.65rem); }
+body.resource-theme-english-union h1 { font-size: clamp(2.2rem, 4.4vw, 3.65rem); }
 h2 { font-size: clamp(1.45rem, 3vw, 2rem); }
 h3 { font-size: 1.15rem; }
 p { margin: 0 0 1rem; }
@@ -199,6 +260,16 @@ body.resource-theme-french-vintage .eyebrow {
   border: 1px solid rgba(23, 63, 115, 0.18);
   border-radius: 999px;
   background: #e8eef6;
+  color: var(--primary);
+}
+
+body.resource-theme-english-union .eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.38rem 0.68rem;
+  border: 1px solid rgba(1, 33, 105, 0.18);
+  border-radius: 999px;
+  background: #e8eef8;
   color: var(--primary);
 }
 .muted, .small { color: var(--muted); }
@@ -215,6 +286,11 @@ body.resource-theme-french-vintage .panel,
 body.resource-theme-french-vintage .card,
 body.resource-theme-french-vintage .resource-card {
   background: rgba(255, 253, 249, 0.96);
+}
+body.resource-theme-english-union .panel,
+body.resource-theme-english-union .card,
+body.resource-theme-english-union .resource-card {
+  background: rgba(255, 253, 249, 0.97);
 }
 .panel { padding: clamp(1rem, 3vw, 1.5rem); }
 .muted-panel { background: var(--surface-soft); box-shadow: none; }
@@ -367,6 +443,9 @@ body.resource-theme-french-vintage .resource-card {
 body.resource-theme-french-vintage .app-nav {
   background: rgba(255, 253, 249, 0.94);
 }
+body.resource-theme-english-union .app-nav {
+  background: rgba(255, 253, 249, 0.94);
+}
 .nav-inner {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(160px, 210px);
@@ -441,6 +520,9 @@ body.resource-theme-french-vintage .app-nav {
 body.resource-theme-french-vintage .activity-pager > .card {
   box-shadow: none;
 }
+body.resource-theme-english-union .activity-pager > .card {
+  box-shadow: none;
+}
 .activity-pager .text-box {
   border: 1px solid var(--border);
 }
@@ -495,6 +577,9 @@ body.resource-theme-french-vintage .activity-pager > .card {
 }
 body.resource-theme-french-vintage .flashcard {
   background: linear-gradient(135deg, #fff, #f2f7fb);
+}
+body.resource-theme-english-union .flashcard {
+  background: linear-gradient(135deg, #fff, #f1f5ff);
 }
 .flashcard[data-side="back"] {
   background: linear-gradient(135deg, #fff, var(--surface-soft));
@@ -620,12 +705,27 @@ body.resource-theme-french-vintage .block-map-card {
   background: #fffdf9;
 }
 
+body.resource-theme-english-union .block-map-card {
+  position: relative;
+  overflow: hidden;
+  border-color: var(--border);
+  background: #fffdf9;
+}
+
 body.resource-theme-french-vintage .block-map-card::before {
   content: "";
   position: absolute;
   inset: 0 auto 0 0;
   width: 0.28rem;
   background: linear-gradient(180deg, #173f73, #fffdf9 48%, #b23a48);
+}
+
+body.resource-theme-english-union .block-map-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0.28rem;
+  background: linear-gradient(180deg, #012169, #fffdf9 48%, #c8102e);
 }
 
 .block-map-card--done {
@@ -681,6 +781,10 @@ body.resource-theme-french-vintage .block-map-card::before {
 
 body.resource-theme-french-vintage .progress-bar {
   background: linear-gradient(90deg, #173f73 0 45%, #fffdf9 45% 55%, #b23a48 55% 100%);
+}
+
+body.resource-theme-english-union .progress-bar {
+  background: linear-gradient(90deg, #012169 0 42%, #fffdf9 42% 58%, #c8102e 58% 100%);
 }
 
 .global-progress-dock {
@@ -784,38 +888,48 @@ body.guided-mode .guided-active {
 @media (max-width: 720px) {
   .container { width: min(100% - 1rem, 1120px); }
   .kit-hero { grid-template-columns: 1fr; }
-  body.resource-theme-french-vintage .kit-header {
+  body.resource-theme-french-vintage .kit-header,
+  body.resource-theme-english-union .kit-header {
     padding: 0.35rem 0 0.3rem;
   }
-  body.resource-theme-french-vintage .kit-hero {
+  body.resource-theme-french-vintage .kit-hero,
+  body.resource-theme-english-union .kit-hero {
     gap: 0.45rem;
   }
-  body.resource-theme-french-vintage .kit-hero-main {
+  body.resource-theme-french-vintage .kit-hero-main,
+  body.resource-theme-english-union .kit-hero-main {
     padding: 0.75rem;
   }
   body.resource-theme-french-vintage .kit-hero-main h1,
-  body.resource-theme-french-vintage .kit-hero-main .lead {
+  body.resource-theme-french-vintage .kit-hero-main .lead,
+  body.resource-theme-english-union .kit-hero-main h1,
+  body.resource-theme-english-union .kit-hero-main .lead {
     display: none;
   }
-  body.resource-theme-french-vintage .kit-card {
+  body.resource-theme-french-vintage .kit-card,
+  body.resource-theme-english-union .kit-card {
     display: none;
   }
-  body.resource-theme-french-vintage .hero-actions {
+  body.resource-theme-french-vintage .hero-actions,
+  body.resource-theme-english-union .hero-actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.4rem;
     margin-top: 0.45rem;
   }
-  body.resource-theme-french-vintage .hero-actions button {
+  body.resource-theme-french-vintage .hero-actions button,
+  body.resource-theme-english-union .hero-actions button {
     min-height: 46px;
     padding: 0.45rem 0.5rem;
     width: 100%;
     font-size: 0.9rem;
   }
-  body.resource-theme-french-vintage .hero-actions button span {
+  body.resource-theme-french-vintage .hero-actions button span,
+  body.resource-theme-english-union .hero-actions button span {
     display: none;
   }
-  body.resource-theme-french-vintage .eyebrow {
+  body.resource-theme-french-vintage .eyebrow,
+  body.resource-theme-english-union .eyebrow {
     font-size: 0.78rem;
     white-space: normal;
   }
