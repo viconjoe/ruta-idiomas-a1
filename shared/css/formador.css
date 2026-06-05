@@ -207,24 +207,14 @@ body.resource-theme-english-union .kit-hero-main::before {
 body.resource-theme-french-vintage .kit-hero-main::after {
   content: "";
   position: absolute;
-  right: clamp(1.2rem, 4vw, 3rem);
-  bottom: clamp(1rem, 3vw, 1.8rem);
-  width: min(250px, 34vw);
-  height: min(230px, 82%);
-  opacity: 0.14;
+  right: clamp(1.6rem, 5vw, 3.4rem);
+  bottom: clamp(1.2rem, 3vw, 2rem);
+  width: min(180px, 24vw);
+  height: min(220px, 74%);
+  opacity: 0.11;
   pointer-events: none;
   z-index: 1;
-  background:
-    linear-gradient(#173f73, #173f73) 50% 0 / 3% 18% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 14% / 18% 4% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 34% / 44% 5% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 62% / 72% 5% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 96% / 94% 5% no-repeat,
-    linear-gradient(75deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 9% / 70% 60% no-repeat,
-    linear-gradient(-75deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 9% / 70% 60% no-repeat,
-    linear-gradient(82deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 39% / 95% 57% no-repeat,
-    linear-gradient(-82deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 39% / 95% 57% no-repeat,
-    radial-gradient(ellipse at 50% 100%, transparent 0 44%, #173f73 45% 49%, transparent 50% 100%) 50% 67% / 56% 30% no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 260'%3E%3Cg fill='none' stroke='%23173f73' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke-width='8' d='M90 12v38M74 50h32M56 102h68M42 162h96M24 246h132M90 12 56 246M90 12l34 234M64 246c8-52 44-52 52 0'/%3E%3Cpath stroke-width='5' d='m66 102 48 60m0-60-48 60m-18 0 74 84m10-84-74 84'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 body.resource-theme-french-vintage .kit-hero-main > * {
