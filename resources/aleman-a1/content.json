@@ -1,0 +1,826 @@
+{
+  "_doc": "Primera propuesta Alem?n A1 alineada con el programa formativo SSCE06: nivel A1 MCER, principiante absoluto, 150 horas, cuatro destrezas y situaciones familiares de necesidad inmediata. Borrador curricular sin audios finales.",
+  "meta": {
+    "id": "aleman-a1",
+    "title": "Ruta Aleman A1",
+    "description": "Recurso piloto para repasar aleman A1 con progreso local, recorrido guiado, mapa de bloques y privacidad por diseno.",
+    "lang": "de",
+    "level": "A1",
+    "version": "0.1",
+    "audience": "adultos FPE",
+    "author": "El Formador Junior",
+    "alignment": "SSCE06 Aleman A1. Servicio Canario de Empleo / SEPE. Nivel A1 MCER: comprension oral y escrita, expresion e interaccion oral y escrita en intercambios muy simples sobre temas familiares y necesidades inmediatas.",
+    "ui": {
+      "theme": "german-signal",
+      "badge": "Aleman A1 - SSCE06 - Alumnado adulto",
+      "description": "Kit interactivo para iniciar aleman A1: identificacion personal, vida diaria, trabajo, viajes, compras, servicios, cortesia, control de la comunicacion y textos breves. Primera propuesta curricular sin audios finales."
+    }
+  },
+  "blocks": {
+    "diagnostico": {
+      "title": "Autoevaluacion rapida",
+      "intro": "18 preguntas orientativas para detectar que conviene repasar antes de practicar aleman A1.",
+      "items": [
+        {
+          "pregunta": "Elige un saludo adecuado por la manana.",
+          "opciones": [
+            "Guten Morgen",
+            "Gute Nacht",
+            "Tsch?ss",
+            "Wie viel kostet das?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Guten Morgen es el saludo basico por la manana."
+        },
+        {
+          "pregunta": "Como preguntas el nombre de una persona?",
+          "opciones": [
+            "Wo wohnen Sie?",
+            "Wie hei?en Sie?",
+            "Was kostet das?",
+            "Wann f?hrt der Bus?"
+          ],
+          "respuestaCorrecta": 1,
+          "feedback": "Wie hei?en Sie? pregunta el nombre de forma formal."
+        },
+        {
+          "pregunta": "Elige una frase para presentarte.",
+          "opciones": [
+            "Ich hei?e Ana.",
+            "Ich Bus Ana.",
+            "Ich kostet Ana.",
+            "Ich Uhr Ana."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich hei?e... sirve para decir el nombre."
+        },
+        {
+          "pregunta": "Que frase sirve para pedir repeticion?",
+          "opciones": [
+            "K?nnen Sie das bitte wiederholen?",
+            "Ich komme aus Spanien.",
+            "Der Bahnhof ist links.",
+            "Ich trinke Wasser."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Es una formula clave de control de la comunicacion."
+        },
+        {
+          "pregunta": "Que significa Ich verstehe nicht?",
+          "opciones": [
+            "No entiendo",
+            "No trabajo",
+            "No compro",
+            "No vivo aqui"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Es una frase de supervivencia muy util."
+        },
+        {
+          "pregunta": "Elige una pregunta de precio.",
+          "opciones": [
+            "Wie viel kostet das?",
+            "Woher kommen Sie?",
+            "Wie alt sind Sie?",
+            "Was machen Sie?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Wie viel kostet das? pregunta cuanto cuesta algo."
+        },
+        {
+          "pregunta": "Como pides ayuda con cortesia?",
+          "opciones": [
+            "K?nnen Sie mir bitte helfen?",
+            "Ich bin Hilfe.",
+            "Hilfe Sie ich bitte.",
+            "Ich helfe Preis."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "K?nnen Sie mir bitte helfen? es una peticion formal y clara."
+        },
+        {
+          "pregunta": "Elige la respuesta correcta a Sind Sie Spanierin?",
+          "opciones": [
+            "Ja, ich bin Spanierin.",
+            "Ja, ich habe Spanierin.",
+            "Ja, ich wohnt Spanierin.",
+            "Ja, ich kostet Spanierin."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Con sein se responde ich bin."
+        },
+        {
+          "pregunta": "Que frase expresa residencia?",
+          "opciones": [
+            "Ich wohne in Las Palmas.",
+            "Ich wohnen in Las Palmas.",
+            "Ich bin Las Palmas wohne.",
+            "Ich habe in Las Palmas."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich wohne in... indica donde vives."
+        },
+        {
+          "pregunta": "Elige una frase de rutina.",
+          "opciones": [
+            "Ich arbeite von Montag bis Freitag.",
+            "Ich arbeiten Montag Freitag.",
+            "Ich bin arbeite gestern.",
+            "Ich kann gearbeitet."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "El presente se usa para rutinas basicas."
+        },
+        {
+          "pregunta": "Como preguntas por un lugar?",
+          "opciones": [
+            "Wo ist die Bushaltestelle?",
+            "Wann ist die Bushaltestelle?",
+            "Wer kostet der Bus?",
+            "Wie kommt Spanien?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Wo pregunta por ubicacion."
+        },
+        {
+          "pregunta": "Elige una instruccion sencilla de clase.",
+          "opciones": [
+            "Lesen Sie bitte.",
+            "Ich lesen bitte.",
+            "Bitte Sie ich lesen.",
+            "Lesen kostet bitte."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "El imperativo formal usa el verbo + Sie."
+        },
+        {
+          "pregunta": "Que frase expresa habilidad?",
+          "opciones": [
+            "Ich kann ein bisschen Deutsch sprechen.",
+            "Ich bin kann Deutsch.",
+            "Ich spreche kann Deutsch.",
+            "Ich zu kann Deutsch."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "K?nnen + infinitivo expresa habilidad o posibilidad."
+        },
+        {
+          "pregunta": "Como dices que quieres cafe?",
+          "opciones": [
+            "Ich m?chte einen Kaffee.",
+            "Ich Kaffee m?chte einen.",
+            "Ich bin Kaffee.",
+            "Kaffee ich kostet."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich m?chte... es una formula educada para pedir."
+        },
+        {
+          "pregunta": "Elige la pregunta para la hora.",
+          "opciones": [
+            "Wie sp?t ist es?",
+            "Wie teuer ist Uhr?",
+            "Wo Uhr Sie?",
+            "Wer ist Montag?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Wie sp?t ist es? pregunta la hora."
+        },
+        {
+          "pregunta": "Como pides pagar con tarjeta?",
+          "opciones": [
+            "Kann ich mit Karte bezahlen?",
+            "Wo ist meine Karte aus?",
+            "Wie viele Karte ist das?",
+            "Ich bin Karte bezahlen."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Kann ich...? sirve para pedir posibilidad o permiso."
+        },
+        {
+          "pregunta": "Elige una frase sobre el tiempo atmosferico.",
+          "opciones": [
+            "Es ist sonnig.",
+            "Ich bin sonnig.",
+            "Sonnig kostet heute.",
+            "Wir haben sonnig gehen."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Es ist... se usa para describir el tiempo."
+        },
+        {
+          "pregunta": "Que formula es una despedida informal?",
+          "opciones": [
+            "Tsch?ss",
+            "Bitte",
+            "Danke",
+            "Entschuldigung"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Tsch?ss es una despedida frecuente e informal."
+        }
+      ]
+    },
+    "flashcards": {
+      "title": "Flashcards de supervivencia",
+      "intro": "30 expresiones funcionales A1 para reconocimiento, pronunciacion futura y produccion basica.",
+      "items": [
+        {
+          "front": "Hallo",
+          "back": "Hola",
+          "hint": "Saludo informal."
+        },
+        {
+          "front": "Guten Morgen",
+          "back": "Buenos dias",
+          "hint": "Saludo por la manana."
+        },
+        {
+          "front": "Guten Tag",
+          "back": "Buenos dias / Buenas tardes",
+          "hint": "Saludo formal neutro."
+        },
+        {
+          "front": "Guten Abend",
+          "back": "Buenas tardes / Buenas noches",
+          "hint": "Saludo al final del dia."
+        },
+        {
+          "front": "Tsch?ss",
+          "back": "Adios",
+          "hint": "Despedida informal."
+        },
+        {
+          "front": "Auf Wiedersehen",
+          "back": "Adios formal",
+          "hint": "Despedida cuidada."
+        },
+        {
+          "front": "Bitte",
+          "back": "Por favor / De nada",
+          "hint": "Palabra de cortesia muy frecuente."
+        },
+        {
+          "front": "Danke",
+          "back": "Gracias",
+          "hint": "Agradecimiento basico."
+        },
+        {
+          "front": "Entschuldigung",
+          "back": "Perdon / Disculpe",
+          "hint": "Para llamar la atencion o disculparse."
+        },
+        {
+          "front": "Wie hei?en Sie?",
+          "back": "Como se llama usted?",
+          "hint": "Pregunta formal por el nombre."
+        },
+        {
+          "front": "Ich hei?e...",
+          "back": "Me llamo...",
+          "hint": "Presentacion personal."
+        },
+        {
+          "front": "Woher kommen Sie?",
+          "back": "De donde viene usted?",
+          "hint": "Origen o procedencia."
+        },
+        {
+          "front": "Ich komme aus Spanien.",
+          "back": "Soy de Espana / Vengo de Espana",
+          "hint": "Origen."
+        },
+        {
+          "front": "Wo wohnen Sie?",
+          "back": "Donde vive usted?",
+          "hint": "Residencia."
+        },
+        {
+          "front": "Ich wohne in...",
+          "back": "Vivo en...",
+          "hint": "Lugar de residencia."
+        },
+        {
+          "front": "Ich verstehe nicht.",
+          "back": "No entiendo",
+          "hint": "Control de la comunicacion."
+        },
+        {
+          "front": "K?nnen Sie das bitte wiederholen?",
+          "back": "Puede repetirlo, por favor?",
+          "hint": "Pedir repeticion."
+        },
+        {
+          "front": "Sprechen Sie Spanisch?",
+          "back": "Habla espanol?",
+          "hint": "Pregunta por idioma."
+        },
+        {
+          "front": "Ich spreche ein bisschen Deutsch.",
+          "back": "Hablo un poco de aleman",
+          "hint": "Habilidad linguistica."
+        },
+        {
+          "front": "Wie viel kostet das?",
+          "back": "Cuanto cuesta esto?",
+          "hint": "Compras."
+        },
+        {
+          "front": "Kann ich mit Karte bezahlen?",
+          "back": "Puedo pagar con tarjeta?",
+          "hint": "Pago."
+        },
+        {
+          "front": "Ich m?chte einen Kaffee.",
+          "back": "Quisiera un cafe",
+          "hint": "Pedir en bar."
+        },
+        {
+          "front": "Wo ist der Bahnhof?",
+          "back": "Donde esta la estacion?",
+          "hint": "Orientacion."
+        },
+        {
+          "front": "Wann f?hrt der Bus?",
+          "back": "Cuando sale el autobus?",
+          "hint": "Transporte."
+        },
+        {
+          "front": "Ich habe eine Reservierung.",
+          "back": "Tengo una reserva",
+          "hint": "Hotel o cita."
+        },
+        {
+          "front": "Ich arbeite im Hotel.",
+          "back": "Trabajo en el hotel",
+          "hint": "Empleo."
+        },
+        {
+          "front": "Ich suche Arbeit.",
+          "back": "Busco trabajo",
+          "hint": "Contexto laboral."
+        },
+        {
+          "front": "Heute ist Montag.",
+          "back": "Hoy es lunes",
+          "hint": "Tiempo."
+        },
+        {
+          "front": "Es ist sonnig.",
+          "back": "Hace sol",
+          "hint": "Clima."
+        },
+        {
+          "front": "Bis bald",
+          "back": "Hasta pronto",
+          "hint": "Despedida cercana."
+        }
+      ]
+    },
+    "gramatica": {
+      "title": "Gramatica util A1",
+      "intro": "Pildoras breves para construir frases sencillas antes de practicar.",
+      "items": [
+        {
+          "title": "Presentarse con sein y hei?en",
+          "explanation": "Ich bin... identifica profesion, origen o estado. Ich hei?e... sirve para decir el nombre.",
+          "examples": [
+            "Ich bin Paula.",
+            "Ich hei?e Daniel.",
+            "Ich bin Spanier."
+          ]
+        },
+        {
+          "title": "Preguntas W y preguntas si/no",
+          "explanation": "Las preguntas W empiezan con wo, wer, wann, wie o woher. Las preguntas si/no suelen empezar con el verbo.",
+          "examples": [
+            "Wo wohnen Sie?",
+            "Wie hei?en Sie?",
+            "Sprechen Sie Deutsch?"
+          ]
+        },
+        {
+          "title": "Orden basico de la frase",
+          "explanation": "En una frase simple, el verbo conjugado suele ocupar la segunda posicion.",
+          "examples": [
+            "Ich wohne in Telde.",
+            "Heute arbeite ich.",
+            "Morgen fahre ich nach Berlin."
+          ]
+        },
+        {
+          "title": "Negacion con nicht y kein",
+          "explanation": "Nicht niega acciones o ideas. Kein niega nombres con articulo indeterminado.",
+          "examples": [
+            "Ich verstehe nicht.",
+            "Ich habe kein Auto.",
+            "Das ist kein Problem."
+          ]
+        },
+        {
+          "title": "Articulos y genero",
+          "explanation": "Los sustantivos alemanes tienen genero: der, die o das. Conviene aprender cada palabra con su articulo.",
+          "examples": [
+            "der Bus",
+            "die Karte",
+            "das Hotel"
+          ]
+        },
+        {
+          "title": "Acusativo basico",
+          "explanation": "En muchos complementos directos, der pasa a den. Es suficiente reconocerlo en frases frecuentes.",
+          "examples": [
+            "Ich nehme den Bus.",
+            "Ich m?chte einen Kaffee.",
+            "Ich kaufe eine Fahrkarte."
+          ]
+        },
+        {
+          "title": "Verbos modales",
+          "explanation": "K?nnen, m?ssen y m?chten ayudan a expresar capacidad, necesidad y deseo. El verbo principal va al final en infinitivo.",
+          "examples": [
+            "Ich kann Deutsch sprechen.",
+            "Ich muss arbeiten.",
+            "Ich m?chte bezahlen."
+          ]
+        },
+        {
+          "title": "Cortesia formal con Sie",
+          "explanation": "En contextos de servicios, trabajo o desconocidos se usa Sie y formulas de cortesia.",
+          "examples": [
+            "K?nnen Sie mir helfen?",
+            "Sprechen Sie Englisch?",
+            "Setzen Sie sich bitte."
+          ]
+        }
+      ]
+    },
+    "lectura": {
+      "title": "Comprension lectora A1",
+      "intro": "Textos breves para localizar informacion concreta.",
+      "items": [
+        {
+          "title": "Presentacion personal",
+          "text": "Hallo. Ich hei?e Marta. Ich komme aus Spanien und wohne in Las Palmas. Ich lerne Deutsch. Ich arbeite in einem Hotel.",
+          "pregunta": "Donde vive Marta?",
+          "opciones": [
+            "En Las Palmas",
+            "En Berlin",
+            "En Hamburgo",
+            "En Viena"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "El texto dice: ich wohne in Las Palmas."
+        },
+        {
+          "title": "Horario de trabajo",
+          "text": "Mein Name ist Luis. Ich arbeite von Montag bis Freitag. Am Samstag habe ich frei. Am Sonntag besuche ich meine Familie.",
+          "pregunta": "Cuando tiene libre Luis?",
+          "opciones": [
+            "El sabado",
+            "El lunes",
+            "El martes",
+            "El viernes"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Am Samstag habe ich frei significa que el sabado tiene libre."
+        },
+        {
+          "title": "En la estacion",
+          "text": "Der Bus nach Puerto de la Cruz f?hrt um 10:15 Uhr. Eine Fahrkarte kostet 4 Euro. Der Bussteig ist Nummer 3.",
+          "pregunta": "Cuanto cuesta el billete?",
+          "opciones": [
+            "4 euros",
+            "3 euros",
+            "10 euros",
+            "15 euros"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Eine Fahrkarte kostet 4 Euro."
+        },
+        {
+          "title": "Reserva de hotel",
+          "text": "Guten Tag. Ich habe eine Reservierung. Mein Name ist Weber. Ich bleibe zwei N?chte. Ich brauche ein ruhiges Zimmer.",
+          "pregunta": "Cuantas noches se queda la persona?",
+          "opciones": [
+            "Dos noches",
+            "Una noche",
+            "Tres noches",
+            "Una semana"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich bleibe zwei N?chte."
+        },
+        {
+          "title": "Compra sencilla",
+          "text": "Ich m?chte Brot, Wasser und zwei ?pfel. Haben Sie auch Kaffee? Ich bezahle mit Karte.",
+          "pregunta": "Como paga la persona?",
+          "opciones": [
+            "Con tarjeta",
+            "En efectivo",
+            "Con transferencia",
+            "No paga"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich bezahle mit Karte."
+        },
+        {
+          "title": "El tiempo",
+          "text": "Heute ist es sonnig und warm. Am Nachmittag ist es windig. Morgen regnet es wahrscheinlich.",
+          "pregunta": "Como esta el tiempo hoy?",
+          "opciones": [
+            "Soleado y calido",
+            "Nevado",
+            "Muy frio",
+            "Lluvioso todo el dia"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Heute ist es sonnig und warm."
+        }
+      ]
+    },
+    "audicion": {
+      "title": "Comprension auditiva A1",
+      "intro": "Tareas preparadas para audios locales. De momento se muestran transcripciones hasta incorporar grabaciones.",
+      "items": [
+        {
+          "title": "Nombre y origen",
+          "transcription": "Guten Tag. Ich hei?e Anna M?ller. Ich komme aus Deutschland und wohne jetzt in Spanien.",
+          "pregunta": "De donde viene Anna?",
+          "opciones": [
+            "De Alemania",
+            "De Espana",
+            "De Francia",
+            "De Italia"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich komme aus Deutschland."
+        },
+        {
+          "title": "Pedir ayuda",
+          "transcription": "Entschuldigung, k?nnen Sie mir bitte helfen? Ich suche den Bahnhof.",
+          "pregunta": "Que busca la persona?",
+          "opciones": [
+            "La estacion",
+            "El hotel",
+            "La farmacia",
+            "El restaurante"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich suche den Bahnhof."
+        },
+        {
+          "title": "En una cafeteria",
+          "transcription": "Ich m?chte einen Kaffee und ein Wasser, bitte. Kann ich mit Karte bezahlen?",
+          "pregunta": "Que quiere pedir?",
+          "opciones": [
+            "Un cafe y agua",
+            "Pan y leche",
+            "Un billete",
+            "Una habitacion"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Dice einen Kaffee und ein Wasser."
+        },
+        {
+          "title": "Horario",
+          "transcription": "Der Kurs beginnt um neun Uhr und endet um zw?lf Uhr drei?ig.",
+          "pregunta": "A que hora empieza el curso?",
+          "opciones": [
+            "A las nueve",
+            "A las doce y media",
+            "A las diez",
+            "A las ocho"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Der Kurs beginnt um neun Uhr."
+        },
+        {
+          "title": "Trabajo",
+          "transcription": "Ich arbeite im Restaurant. Heute arbeite ich von vier bis zehn Uhr.",
+          "pregunta": "Donde trabaja la persona?",
+          "opciones": [
+            "En un restaurante",
+            "En una escuela",
+            "En una estacion",
+            "En un banco"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich arbeite im Restaurant."
+        },
+        {
+          "title": "Clima",
+          "transcription": "Heute ist es warm. Morgen ist es bew?lkt und es regnet am Abend.",
+          "pregunta": "Cuando llueve?",
+          "opciones": [
+            "Manana por la noche",
+            "Hoy por la manana",
+            "Ahora mismo",
+            "El lunes pasado"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Morgen... es regnet am Abend."
+        }
+      ]
+    },
+    "emparejar": {
+      "title": "Emparejar expresiones",
+      "intro": "Relaciona expresiones alemanas con su intencion comunicativa.",
+      "items": [
+        {
+          "id": "m1",
+          "front": "Wie hei?en Sie?",
+          "back": "Preguntar el nombre"
+        },
+        {
+          "id": "m2",
+          "front": "Ich komme aus Spanien.",
+          "back": "Decir el origen"
+        },
+        {
+          "id": "m3",
+          "front": "K?nnen Sie das bitte wiederholen?",
+          "back": "Pedir repeticion"
+        },
+        {
+          "id": "m4",
+          "front": "Wie viel kostet das?",
+          "back": "Preguntar el precio"
+        },
+        {
+          "id": "m5",
+          "front": "Wo ist die Toilette?",
+          "back": "Preguntar por un lugar"
+        },
+        {
+          "id": "m6",
+          "front": "Ich m?chte einen Kaffee.",
+          "back": "Pedir algo"
+        },
+        {
+          "id": "m7",
+          "front": "Kann ich mit Karte bezahlen?",
+          "back": "Pedir pagar con tarjeta"
+        },
+        {
+          "id": "m8",
+          "front": "Ich verstehe nicht.",
+          "back": "Decir que no entiendes"
+        },
+        {
+          "id": "m9",
+          "front": "Bis bald",
+          "back": "Despedirse"
+        },
+        {
+          "id": "m10",
+          "front": "Es ist kalt.",
+          "back": "Hablar del clima"
+        }
+      ]
+    },
+    "situaciones": {
+      "title": "Mini-situaciones comunicativas",
+      "intro": "Elige la frase adecuada para cada situacion cotidiana.",
+      "items": [
+        {
+          "situacion": "Estas en recepcion y quieres decir que tienes una reserva.",
+          "opciones": [
+            "Ich habe eine Reservierung.",
+            "Ich bin eine Reservierung.",
+            "Ich kostet Reservierung.",
+            "Reservierung bitte alt."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich habe eine Reservierung es la formula util."
+        },
+        {
+          "situacion": "No has entendido y necesitas que repitan.",
+          "opciones": [
+            "K?nnen Sie das bitte wiederholen?",
+            "Ich m?chte Kaffee.",
+            "Der Bus f?hrt um zehn.",
+            "Ich komme aus Spanien."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "La frase pide repeticion con cortesia."
+        },
+        {
+          "situacion": "Quieres comprar un billete de autobus.",
+          "opciones": [
+            "Ich m?chte eine Fahrkarte, bitte.",
+            "Ich bin Fahrkarte bitte.",
+            "Fahrkarte ich wohne.",
+            "Ich habe Wetter."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich m?chte... permite pedir algo."
+        },
+        {
+          "situacion": "Preguntas si puedes pagar con tarjeta.",
+          "opciones": [
+            "Kann ich mit Karte bezahlen?",
+            "Wo wohnt die Karte?",
+            "Ich Karte bin.",
+            "Was ist Karte Arbeit?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Kann ich...? pregunta posibilidad o permiso."
+        },
+        {
+          "situacion": "Quieres explicar que buscas trabajo.",
+          "opciones": [
+            "Ich suche Arbeit.",
+            "Ich bin Arbeit suche.",
+            "Arbeit kostet ich.",
+            "Ich habe sonnig."
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Ich suche Arbeit es una frase laboral basica."
+        },
+        {
+          "situacion": "Necesitas preguntar donde esta la parada.",
+          "opciones": [
+            "Wo ist die Bushaltestelle?",
+            "Wann kostet die Bushaltestelle?",
+            "Ich bin Haltestelle.",
+            "Wie alt ist Bus?"
+          ],
+          "respuestaCorrecta": 0,
+          "feedback": "Wo ist...? pregunta por ubicacion."
+        }
+      ]
+    },
+    "oral": {
+      "title": "Practica oral guiada",
+      "intro": "Modelos y frases de apoyo para practicar en voz alta, sin grabacion obligatoria.",
+      "items": [
+        {
+          "title": "Presentacion de 20 segundos",
+          "task": "Di tu nombre, origen, residencia y una actividad diaria.",
+          "model": "Hallo. Ich hei?e Joel. Ich komme aus Spanien. Ich wohne in Las Palmas. Ich arbeite und lerne Deutsch.",
+          "support": [
+            "Ich hei?e...",
+            "Ich komme aus...",
+            "Ich wohne in...",
+            "Ich arbeite..."
+          ]
+        },
+        {
+          "title": "Pedir ayuda",
+          "task": "Imagina que buscas la estacion y pide ayuda con cortesia.",
+          "model": "Entschuldigung, k?nnen Sie mir bitte helfen? Wo ist der Bahnhof?",
+          "support": [
+            "Entschuldigung",
+            "K?nnen Sie mir bitte helfen?",
+            "Wo ist...?"
+          ]
+        },
+        {
+          "title": "En una cafeteria",
+          "task": "Pide una bebida y pregunta si puedes pagar con tarjeta.",
+          "model": "Ich m?chte einen Kaffee, bitte. Kann ich mit Karte bezahlen?",
+          "support": [
+            "Ich m?chte...",
+            "bitte",
+            "Kann ich mit Karte bezahlen?"
+          ]
+        },
+        {
+          "title": "Control de la comunicacion",
+          "task": "Di que no entiendes y pide repeticion.",
+          "model": "Ich verstehe nicht. K?nnen Sie das bitte wiederholen?",
+          "support": [
+            "Ich verstehe nicht",
+            "K?nnen Sie...?",
+            "wiederholen"
+          ]
+        }
+      ]
+    },
+    "reto": {
+      "title": "Reto final local",
+      "intro": "Prepara una situacion comunicativa breve. El texto queda solo en este navegador.",
+      "prompts": [
+        "Presentate en aleman con nombre, origen y ciudad.",
+        "Pide informacion sobre un transporte o servicio.",
+        "Incluye una frase de cortesia y una frase de control de la comunicacion."
+      ],
+      "placeholder": "Escribe aqui tu mini-dialogo o guion en aleman A1...",
+      "checklist": [
+        "He usado saludo o despedida.",
+        "He incluido una pregunta util.",
+        "He usado bitte o danke.",
+        "He revisado el orden basico del verbo."
+      ]
+    },
+    "autoevaluacion": {
+      "title": "Autoevaluacion final",
+      "intro": "Sintesis sencilla para valorar si conviene repetir algun bloque antes de cerrar el informe."
+    },
+    "informe": {
+      "title": "Informe local imprimible",
+      "intro": "Vista local para imprimir o guardar como PDF desde el navegador. No envia datos."
+    }
+  }
+}

@@ -1,4 +1,4 @@
-const CACHE_NAME = "ruta-idiomas-a1-v30";
+const CACHE_NAME = "ruta-idiomas-a1-v32";
 const ESSENTIALS = [
   "./",
   "./index.html",
@@ -15,7 +15,12 @@ const ESSENTIALS = [
   "./resources/ingles-a1/index.html",
   "./resources/ingles-a1/content-data.js",
   "./resources/ingles-a1/content.json",
-  "./resources/ingles-a1/manifest.webmanifest"
+  "./resources/ingles-a1/manifest.webmanifest",
+  "./resources/aleman-a1/",
+  "./resources/aleman-a1/index.html",
+  "./resources/aleman-a1/content-data.js",
+  "./resources/aleman-a1/content.json",
+  "./resources/aleman-a1/manifest.webmanifest"
 ];
 
 self.addEventListener("install", function (event) {

@@ -19,6 +19,14 @@
       "status": "En preparacion",
       "privacy": "Recurso local y privado",
       "url": "./resources/ingles-a1/index.html"
+    },
+    {
+      "id": "aleman-a1",
+      "title": "Ruta Aleman A1",
+      "level": "A1",
+      "status": "Primera propuesta",
+      "privacy": "Recurso local y privado",
+      "url": "./resources/aleman-a1/index.html"
     }
   ]
 }

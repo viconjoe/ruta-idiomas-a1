@@ -1,0 +1,9 @@
+{
+  "name": "Ruta Aleman A1",
+  "short_name": "Aleman A1",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#243b53",
+  "description": "Primera propuesta curricular para el recurso Aleman A1 de Ruta Idiomas A1."
+}
