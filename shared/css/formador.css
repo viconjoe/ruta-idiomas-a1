@@ -209,20 +209,22 @@ body.resource-theme-french-vintage .kit-hero-main::after {
   position: absolute;
   right: clamp(1.2rem, 4vw, 3rem);
   bottom: clamp(1rem, 3vw, 1.8rem);
-  width: min(230px, 32vw);
-  height: min(220px, 80%);
-  opacity: 0.13;
+  width: min(250px, 34vw);
+  height: min(230px, 82%);
+  opacity: 0.14;
   pointer-events: none;
+  z-index: 1;
   background:
-    linear-gradient(#173f73, #173f73) 50% 0 / 10% 100% no-repeat,
-    linear-gradient(70deg, transparent 0 43%, #173f73 43% 48%, transparent 48% 100%) 50% 0 / 100% 100% no-repeat,
-    linear-gradient(-70deg, transparent 0 43%, #173f73 43% 48%, transparent 48% 100%) 50% 0 / 100% 100% no-repeat,
-    linear-gradient(82deg, transparent 0 45%, #173f73 45% 49%, transparent 49% 100%) 50% 14% / 72% 80% no-repeat,
-    linear-gradient(-82deg, transparent 0 45%, #173f73 45% 49%, transparent 49% 100%) 50% 14% / 72% 80% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 36% / 62% 5% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 64% / 80% 5% no-repeat,
-    linear-gradient(#173f73, #173f73) 50% 95% / 100% 5% no-repeat;
-  clip-path: polygon(48% 0, 52% 0, 58% 34%, 76% 100%, 60% 100%, 54% 72%, 46% 72%, 40% 100%, 24% 100%, 42% 34%);
+    linear-gradient(#173f73, #173f73) 50% 0 / 3% 18% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 14% / 18% 4% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 34% / 44% 5% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 62% / 72% 5% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 96% / 94% 5% no-repeat,
+    linear-gradient(75deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 9% / 70% 60% no-repeat,
+    linear-gradient(-75deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 9% / 70% 60% no-repeat,
+    linear-gradient(82deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 39% / 95% 57% no-repeat,
+    linear-gradient(-82deg, transparent 0 48%, #173f73 48% 51%, transparent 51% 100%) 50% 39% / 95% 57% no-repeat,
+    radial-gradient(ellipse at 50% 100%, transparent 0 44%, #173f73 45% 49%, transparent 50% 100%) 50% 67% / 56% 30% no-repeat;
 }
 
 body.resource-theme-french-vintage .kit-hero-main > * {
