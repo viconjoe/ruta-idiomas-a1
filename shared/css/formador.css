@@ -207,13 +207,27 @@ body.resource-theme-english-union .kit-hero-main::before {
 body.resource-theme-french-vintage .kit-hero-main::after {
   content: "";
   position: absolute;
-  right: clamp(1rem, 3vw, 2rem);
-  bottom: clamp(1rem, 3vw, 2rem);
-  width: min(180px, 30vw);
-  height: 0.32rem;
-  border-radius: 999px;
-  background: linear-gradient(90deg, #173f73 0 33.33%, #fffdf9 33.33% 66.66%, #b23a48 66.66% 100%);
-  opacity: 0.85;
+  right: clamp(1.2rem, 4vw, 3rem);
+  bottom: clamp(1rem, 3vw, 1.8rem);
+  width: min(230px, 32vw);
+  height: min(220px, 80%);
+  opacity: 0.13;
+  pointer-events: none;
+  background:
+    linear-gradient(#173f73, #173f73) 50% 0 / 10% 100% no-repeat,
+    linear-gradient(70deg, transparent 0 43%, #173f73 43% 48%, transparent 48% 100%) 50% 0 / 100% 100% no-repeat,
+    linear-gradient(-70deg, transparent 0 43%, #173f73 43% 48%, transparent 48% 100%) 50% 0 / 100% 100% no-repeat,
+    linear-gradient(82deg, transparent 0 45%, #173f73 45% 49%, transparent 49% 100%) 50% 14% / 72% 80% no-repeat,
+    linear-gradient(-82deg, transparent 0 45%, #173f73 45% 49%, transparent 49% 100%) 50% 14% / 72% 80% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 36% / 62% 5% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 64% / 80% 5% no-repeat,
+    linear-gradient(#173f73, #173f73) 50% 95% / 100% 5% no-repeat;
+  clip-path: polygon(48% 0, 52% 0, 58% 34%, 76% 100%, 60% 100%, 54% 72%, 46% 72%, 40% 100%, 24% 100%, 42% 34%);
+}
+
+body.resource-theme-french-vintage .kit-hero-main > * {
+  position: relative;
+  z-index: 2;
 }
 
 body.resource-theme-english-union .kit-hero-main::after {
@@ -914,6 +928,7 @@ body.guided-mode .guided-active {
   body.resource-theme-english-union .kit-hero-main {
     padding: 0.75rem;
   }
+  body.resource-theme-french-vintage .kit-hero-main::after,
   body.resource-theme-english-union .kit-hero-main::after {
     display: none;
   }
