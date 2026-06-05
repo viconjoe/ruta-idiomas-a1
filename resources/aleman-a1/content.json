@@ -1,5 +1,5 @@
 {
-  "_doc": "Primera propuesta Alem?n A1 alineada con el programa formativo SSCE06: nivel A1 MCER, principiante absoluto, 150 horas, cuatro destrezas y situaciones familiares de necesidad inmediata. Borrador curricular sin audios finales.",
+  "_doc": "Primera propuesta Aleman A1 alineada con el programa formativo SSCE06: nivel A1 MCER, principiante absoluto, 150 horas, cuatro destrezas y situaciones familiares de necesidad inmediata. Borrador curricular sin audios finales.",
   "meta": {
     "id": "aleman-a1",
     "title": "Ruta Aleman A1",
@@ -26,7 +26,7 @@
           "opciones": [
             "Guten Morgen",
             "Gute Nacht",
-            "Tsch?ss",
+            "Tschüss",
             "Wie viel kostet das?"
           ],
           "respuestaCorrecta": 0,
@@ -36,28 +36,28 @@
           "pregunta": "Como preguntas el nombre de una persona?",
           "opciones": [
             "Wo wohnen Sie?",
-            "Wie hei?en Sie?",
+            "Wie heißen Sie?",
             "Was kostet das?",
-            "Wann f?hrt der Bus?"
+            "Wann fährt der Bus?"
           ],
           "respuestaCorrecta": 1,
-          "feedback": "Wie hei?en Sie? pregunta el nombre de forma formal."
+          "feedback": "Wie heißen Sie? pregunta el nombre de forma formal."
         },
         {
           "pregunta": "Elige una frase para presentarte.",
           "opciones": [
-            "Ich hei?e Ana.",
+            "Ich heiße Ana.",
             "Ich Bus Ana.",
             "Ich kostet Ana.",
             "Ich Uhr Ana."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Ich hei?e... sirve para decir el nombre."
+          "feedback": "Ich heiße... sirve para decir el nombre."
         },
         {
           "pregunta": "Que frase sirve para pedir repeticion?",
           "opciones": [
-            "K?nnen Sie das bitte wiederholen?",
+            "Können Sie das bitte wiederholen?",
             "Ich komme aus Spanien.",
             "Der Bahnhof ist links.",
             "Ich trinke Wasser."
@@ -90,13 +90,13 @@
         {
           "pregunta": "Como pides ayuda con cortesia?",
           "opciones": [
-            "K?nnen Sie mir bitte helfen?",
+            "Können Sie mir bitte helfen?",
             "Ich bin Hilfe.",
             "Hilfe Sie ich bitte.",
             "Ich helfe Preis."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "K?nnen Sie mir bitte helfen? es una peticion formal y clara."
+          "feedback": "Können Sie mir bitte helfen? es una peticion formal y clara."
         },
         {
           "pregunta": "Elige la respuesta correcta a Sind Sie Spanierin?",
@@ -162,29 +162,29 @@
             "Ich zu kann Deutsch."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "K?nnen + infinitivo expresa habilidad o posibilidad."
+          "feedback": "Können + infinitivo expresa habilidad o posibilidad."
         },
         {
           "pregunta": "Como dices que quieres cafe?",
           "opciones": [
-            "Ich m?chte einen Kaffee.",
-            "Ich Kaffee m?chte einen.",
+            "Ich möchte einen Kaffee.",
+            "Ich Kaffee möchte einen.",
             "Ich bin Kaffee.",
             "Kaffee ich kostet."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Ich m?chte... es una formula educada para pedir."
+          "feedback": "Ich möchte... es una formula educada para pedir."
         },
         {
           "pregunta": "Elige la pregunta para la hora.",
           "opciones": [
-            "Wie sp?t ist es?",
+            "Wie spät ist es?",
             "Wie teuer ist Uhr?",
             "Wo Uhr Sie?",
             "Wer ist Montag?"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Wie sp?t ist es? pregunta la hora."
+          "feedback": "Wie spät ist es? pregunta la hora."
         },
         {
           "pregunta": "Como pides pagar con tarjeta?",
@@ -211,13 +211,13 @@
         {
           "pregunta": "Que formula es una despedida informal?",
           "opciones": [
-            "Tsch?ss",
+            "Tschüss",
             "Bitte",
             "Danke",
             "Entschuldigung"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Tsch?ss es una despedida frecuente e informal."
+          "feedback": "Tschüss es una despedida frecuente e informal."
         }
       ]
     },
@@ -246,7 +246,7 @@
           "hint": "Saludo al final del dia."
         },
         {
-          "front": "Tsch?ss",
+          "front": "Tschüss",
           "back": "Adios",
           "hint": "Despedida informal."
         },
@@ -271,12 +271,12 @@
           "hint": "Para llamar la atencion o disculparse."
         },
         {
-          "front": "Wie hei?en Sie?",
+          "front": "Wie heißen Sie?",
           "back": "Como se llama usted?",
           "hint": "Pregunta formal por el nombre."
         },
         {
-          "front": "Ich hei?e...",
+          "front": "Ich heiße...",
           "back": "Me llamo...",
           "hint": "Presentacion personal."
         },
@@ -306,7 +306,7 @@
           "hint": "Control de la comunicacion."
         },
         {
-          "front": "K?nnen Sie das bitte wiederholen?",
+          "front": "Können Sie das bitte wiederholen?",
           "back": "Puede repetirlo, por favor?",
           "hint": "Pedir repeticion."
         },
@@ -331,7 +331,7 @@
           "hint": "Pago."
         },
         {
-          "front": "Ich m?chte einen Kaffee.",
+          "front": "Ich möchte einen Kaffee.",
           "back": "Quisiera un cafe",
           "hint": "Pedir en bar."
         },
@@ -341,7 +341,7 @@
           "hint": "Orientacion."
         },
         {
-          "front": "Wann f?hrt der Bus?",
+          "front": "Wann fährt der Bus?",
           "back": "Cuando sale el autobus?",
           "hint": "Transporte."
         },
@@ -382,11 +382,11 @@
       "intro": "Pildoras breves para construir frases sencillas antes de practicar.",
       "items": [
         {
-          "title": "Presentarse con sein y hei?en",
-          "explanation": "Ich bin... identifica profesion, origen o estado. Ich hei?e... sirve para decir el nombre.",
+          "title": "Presentarse con sein y heißen",
+          "explanation": "Ich bin... identifica profesion, origen o estado. Ich heiße... sirve para decir el nombre.",
           "examples": [
             "Ich bin Paula.",
-            "Ich hei?e Daniel.",
+            "Ich heiße Daniel.",
             "Ich bin Spanier."
           ]
         },
@@ -395,7 +395,7 @@
           "explanation": "Las preguntas W empiezan con wo, wer, wann, wie o woher. Las preguntas si/no suelen empezar con el verbo.",
           "examples": [
             "Wo wohnen Sie?",
-            "Wie hei?en Sie?",
+            "Wie heißen Sie?",
             "Sprechen Sie Deutsch?"
           ]
         },
@@ -431,24 +431,24 @@
           "explanation": "En muchos complementos directos, der pasa a den. Es suficiente reconocerlo en frases frecuentes.",
           "examples": [
             "Ich nehme den Bus.",
-            "Ich m?chte einen Kaffee.",
+            "Ich möchte einen Kaffee.",
             "Ich kaufe eine Fahrkarte."
           ]
         },
         {
           "title": "Verbos modales",
-          "explanation": "K?nnen, m?ssen y m?chten ayudan a expresar capacidad, necesidad y deseo. El verbo principal va al final en infinitivo.",
+          "explanation": "Können, müssen y möchten ayudan a expresar capacidad, necesidad y deseo. El verbo principal va al final en infinitivo.",
           "examples": [
             "Ich kann Deutsch sprechen.",
             "Ich muss arbeiten.",
-            "Ich m?chte bezahlen."
+            "Ich möchte bezahlen."
           ]
         },
         {
           "title": "Cortesia formal con Sie",
           "explanation": "En contextos de servicios, trabajo o desconocidos se usa Sie y formulas de cortesia.",
           "examples": [
-            "K?nnen Sie mir helfen?",
+            "Können Sie mir helfen?",
             "Sprechen Sie Englisch?",
             "Setzen Sie sich bitte."
           ]
@@ -461,7 +461,7 @@
       "items": [
         {
           "title": "Presentacion personal",
-          "text": "Hallo. Ich hei?e Marta. Ich komme aus Spanien und wohne in Las Palmas. Ich lerne Deutsch. Ich arbeite in einem Hotel.",
+          "text": "Hallo. Ich heiße Marta. Ich komme aus Spanien und wohne in Las Palmas. Ich lerne Deutsch. Ich arbeite in einem Hotel.",
           "pregunta": "Donde vive Marta?",
           "opciones": [
             "En Las Palmas",
@@ -487,7 +487,7 @@
         },
         {
           "title": "En la estacion",
-          "text": "Der Bus nach Puerto de la Cruz f?hrt um 10:15 Uhr. Eine Fahrkarte kostet 4 Euro. Der Bussteig ist Nummer 3.",
+          "text": "Der Bus nach Puerto de la Cruz fährt um 10:15 Uhr. Eine Fahrkarte kostet 4 Euro. Der Bussteig ist Nummer 3.",
           "pregunta": "Cuanto cuesta el billete?",
           "opciones": [
             "4 euros",
@@ -500,7 +500,7 @@
         },
         {
           "title": "Reserva de hotel",
-          "text": "Guten Tag. Ich habe eine Reservierung. Mein Name ist Weber. Ich bleibe zwei N?chte. Ich brauche ein ruhiges Zimmer.",
+          "text": "Guten Tag. Ich habe eine Reservierung. Mein Name ist Weber. Ich bleibe zwei Nächte. Ich brauche ein ruhiges Zimmer.",
           "pregunta": "Cuantas noches se queda la persona?",
           "opciones": [
             "Dos noches",
@@ -509,11 +509,11 @@
             "Una semana"
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Ich bleibe zwei N?chte."
+          "feedback": "Ich bleibe zwei Nächte."
         },
         {
           "title": "Compra sencilla",
-          "text": "Ich m?chte Brot, Wasser und zwei ?pfel. Haben Sie auch Kaffee? Ich bezahle mit Karte.",
+          "text": "Ich möchte Brot, Wasser und zwei Äpfel. Haben Sie auch Kaffee? Ich bezahle mit Karte.",
           "pregunta": "Como paga la persona?",
           "opciones": [
             "Con tarjeta",
@@ -545,7 +545,7 @@
       "items": [
         {
           "title": "Nombre y origen",
-          "transcription": "Guten Tag. Ich hei?e Anna M?ller. Ich komme aus Deutschland und wohne jetzt in Spanien.",
+          "transcription": "Guten Tag. Ich heiße Anna Müller. Ich komme aus Deutschland und wohne jetzt in Spanien.",
           "pregunta": "De donde viene Anna?",
           "opciones": [
             "De Alemania",
@@ -558,7 +558,7 @@
         },
         {
           "title": "Pedir ayuda",
-          "transcription": "Entschuldigung, k?nnen Sie mir bitte helfen? Ich suche den Bahnhof.",
+          "transcription": "Entschuldigung, können Sie mir bitte helfen? Ich suche den Bahnhof.",
           "pregunta": "Que busca la persona?",
           "opciones": [
             "La estacion",
@@ -571,7 +571,7 @@
         },
         {
           "title": "En una cafeteria",
-          "transcription": "Ich m?chte einen Kaffee und ein Wasser, bitte. Kann ich mit Karte bezahlen?",
+          "transcription": "Ich möchte einen Kaffee und ein Wasser, bitte. Kann ich mit Karte bezahlen?",
           "pregunta": "Que quiere pedir?",
           "opciones": [
             "Un cafe y agua",
@@ -584,7 +584,7 @@
         },
         {
           "title": "Horario",
-          "transcription": "Der Kurs beginnt um neun Uhr und endet um zw?lf Uhr drei?ig.",
+          "transcription": "Der Kurs beginnt um neun Uhr und endet um zwölf Uhr dreißig.",
           "pregunta": "A que hora empieza el curso?",
           "opciones": [
             "A las nueve",
@@ -610,7 +610,7 @@
         },
         {
           "title": "Clima",
-          "transcription": "Heute ist es warm. Morgen ist es bew?lkt und es regnet am Abend.",
+          "transcription": "Heute ist es warm. Morgen ist es bewölkt und es regnet am Abend.",
           "pregunta": "Cuando llueve?",
           "opciones": [
             "Manana por la noche",
@@ -629,7 +629,7 @@
       "items": [
         {
           "id": "m1",
-          "front": "Wie hei?en Sie?",
+          "front": "Wie heißen Sie?",
           "back": "Preguntar el nombre"
         },
         {
@@ -639,7 +639,7 @@
         },
         {
           "id": "m3",
-          "front": "K?nnen Sie das bitte wiederholen?",
+          "front": "Können Sie das bitte wiederholen?",
           "back": "Pedir repeticion"
         },
         {
@@ -654,7 +654,7 @@
         },
         {
           "id": "m6",
-          "front": "Ich m?chte einen Kaffee.",
+          "front": "Ich möchte einen Kaffee.",
           "back": "Pedir algo"
         },
         {
@@ -697,9 +697,9 @@
         {
           "situacion": "No has entendido y necesitas que repitan.",
           "opciones": [
-            "K?nnen Sie das bitte wiederholen?",
-            "Ich m?chte Kaffee.",
-            "Der Bus f?hrt um zehn.",
+            "Können Sie das bitte wiederholen?",
+            "Ich möchte Kaffee.",
+            "Der Bus fährt um zehn.",
             "Ich komme aus Spanien."
           ],
           "respuestaCorrecta": 0,
@@ -708,13 +708,13 @@
         {
           "situacion": "Quieres comprar un billete de autobus.",
           "opciones": [
-            "Ich m?chte eine Fahrkarte, bitte.",
+            "Ich möchte eine Fahrkarte, bitte.",
             "Ich bin Fahrkarte bitte.",
             "Fahrkarte ich wohne.",
             "Ich habe Wetter."
           ],
           "respuestaCorrecta": 0,
-          "feedback": "Ich m?chte... permite pedir algo."
+          "feedback": "Ich möchte... permite pedir algo."
         },
         {
           "situacion": "Preguntas si puedes pagar con tarjeta.",
@@ -758,9 +758,9 @@
         {
           "title": "Presentacion de 20 segundos",
           "task": "Di tu nombre, origen, residencia y una actividad diaria.",
-          "model": "Hallo. Ich hei?e Joel. Ich komme aus Spanien. Ich wohne in Las Palmas. Ich arbeite und lerne Deutsch.",
+          "model": "Hallo. Ich heiße Joel. Ich komme aus Spanien. Ich wohne in Las Palmas. Ich arbeite und lerne Deutsch.",
           "support": [
-            "Ich hei?e...",
+            "Ich heiße...",
             "Ich komme aus...",
             "Ich wohne in...",
             "Ich arbeite..."
@@ -769,19 +769,19 @@
         {
           "title": "Pedir ayuda",
           "task": "Imagina que buscas la estacion y pide ayuda con cortesia.",
-          "model": "Entschuldigung, k?nnen Sie mir bitte helfen? Wo ist der Bahnhof?",
+          "model": "Entschuldigung, können Sie mir bitte helfen? Wo ist der Bahnhof?",
           "support": [
             "Entschuldigung",
-            "K?nnen Sie mir bitte helfen?",
+            "Können Sie mir bitte helfen?",
             "Wo ist...?"
           ]
         },
         {
           "title": "En una cafeteria",
           "task": "Pide una bebida y pregunta si puedes pagar con tarjeta.",
-          "model": "Ich m?chte einen Kaffee, bitte. Kann ich mit Karte bezahlen?",
+          "model": "Ich möchte einen Kaffee, bitte. Kann ich mit Karte bezahlen?",
           "support": [
-            "Ich m?chte...",
+            "Ich möchte...",
             "bitte",
             "Kann ich mit Karte bezahlen?"
           ]
@@ -789,10 +789,10 @@
         {
           "title": "Control de la comunicacion",
           "task": "Di que no entiendes y pide repeticion.",
-          "model": "Ich verstehe nicht. K?nnen Sie das bitte wiederholen?",
+          "model": "Ich verstehe nicht. Können Sie das bitte wiederholen?",
           "support": [
             "Ich verstehe nicht",
-            "K?nnen Sie...?",
+            "Können Sie...?",
             "wiederholen"
           ]
         }
